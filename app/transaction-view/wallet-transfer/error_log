@@ -1,0 +1,32 @@
+[20-Jul-2023 11:36:39 UTC] PHP Fatal error:  Redefinition of parameter $amount in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 314
+[20-Jul-2023 11:38:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: sitename in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 155
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: headers in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 161
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: hosturl in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 164
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: senderfName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 224
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: senderlName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 224
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: senderfName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 232
+[20-Jul-2023 11:38:05 UTC] PHP Notice:  Undefined variable: senderlName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 232
+[20-Jul-2023 11:39:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: sitename in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 155
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: headers in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 161
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: hosturl in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 164
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: senderfName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 224
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: senderlName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 224
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: senderfName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 232
+[20-Jul-2023 11:40:05 UTC] PHP Notice:  Undefined variable: senderlName in /home/marklbys/markersapi.com.ng/app/transaction-view/wallet-transfer/index.php on line 232
+[20-Jul-2023 12:08:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 12:08:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 12:09:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Aug-2023 08:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function recentTransactions() in /home/cjplug/public_html/en/inc/recent-transaction-widget.php:21
+Stack trace:
+#0 /home/cjplug/public_html/en/transaction-view/wallet-transfer/index.php(584): include()
+#1 {main}
+  thrown in /home/cjplug/public_html/en/inc/recent-transaction-widget.php on line 21
+[16-Aug-2023 08:46:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function recentTransactions() in /home/cjplug/public_html/en/inc/recent-transaction-widget.php:21
+Stack trace:
+#0 /home/cjplug/public_html/en/transaction-view/wallet-transfer/index.php(584): include()
+#1 {main}
+  thrown in /home/cjplug/public_html/en/inc/recent-transaction-widget.php on line 21

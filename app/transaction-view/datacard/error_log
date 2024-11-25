@@ -1,0 +1,213 @@
+[22-Mar-2023 22:38:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php:182
+Stack trace:
+#0 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 182
+[22-Mar-2023 22:58:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php:182
+Stack trace:
+#0 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 182
+[30-Mar-2023 00:28:04 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[30-Mar-2023 00:35:40 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[30-Mar-2023 00:38:17 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[30-Mar-2023 00:38:50 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[31-Mar-2023 08:32:09 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[31-Mar-2023 08:33:57 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[31-Mar-2023 08:35:32 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[31-Mar-2023 08:35:35 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[03-Apr-2023 09:31:13 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[03-Apr-2023 09:31:17 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[04-Apr-2023 08:23:08 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[04-Apr-2023 08:23:13 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[05-Apr-2023 02:02:09 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/eloadng/public_html/app.eloaded.ng/transaction-view/datacard/index.php on line 53
+[12-Apr-2023 02:05:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 74
+[12-Apr-2023 02:05:52 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php:80
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php(10): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php on line 80
+[12-Apr-2023 02:10:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 74
+[12-Apr-2023 02:10:05 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php:80
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php(10): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php on line 80
+[12-Apr-2023 02:11:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 74
+[12-Apr-2023 02:11:21 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php:80
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php(10): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/header2.php on line 80
+[12-Apr-2023 02:17:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 74
+[12-Apr-2023 02:17:36 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php:2
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php(5): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 42
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 82
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav3.php on line 4
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 53
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 454
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 454
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 457
+[12-Apr-2023 02:26:08 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 459
+[12-Apr-2023 02:27:41 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 2
+[12-Apr-2023 02:28:04 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 2
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 42
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 82
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav3.php on line 4
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 54
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 455
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 455
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 458
+[12-Apr-2023 02:29:07 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 460
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 42
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 82
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav3.php on line 4
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 456
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 456
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 459
+[12-Apr-2023 02:31:16 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/datacard/index.php on line 461
+[12-Apr-2023 02:35:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func1.php on line 82
+[27-Apr-2023 10:29:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[27-Apr-2023 10:29:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[27-Apr-2023 10:31:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[27-Apr-2023 22:45:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[27-Apr-2023 22:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[28-Apr-2023 15:28:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[28-Apr-2023 15:29:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[08-May-2023 11:49:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[08-May-2023 11:50:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[02-Jul-2023 19:40:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[02-Jul-2023 19:40:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 20:47:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 20:48:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 20:48:05 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[03-Jul-2023 21:09:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 21:09:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 21:09:53 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[03-Jul-2023 21:11:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 21:11:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[03-Jul-2023 21:11:08 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[04-Jul-2023 07:51:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[04-Jul-2023 07:51:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[04-Jul-2023 07:51:30 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[04-Jul-2023 12:36:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[04-Jul-2023 12:37:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[06-Jul-2023 12:29:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[06-Jul-2023 12:29:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:12:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:12:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:12:39 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[09-Jul-2023 12:13:35 UTC] PHP Notice:  Trying to get property 'PIN' of non-object in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[09-Jul-2023 12:14:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:14:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 12:14:34 UTC] PHP Notice:  Undefined property: stdClass::$PIN in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[10-Jul-2023 09:11:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[10-Jul-2023 09:11:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[10-Jul-2023 09:11:22 UTC] PHP Notice:  Trying to get property 'PIN' of non-object in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[13-Jul-2023 06:22:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:23:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:23:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:23:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:24:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:31:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:31:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:37:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:37:28 UTC] PHP Notice:  Trying to get property 'PIN' of non-object in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[13-Jul-2023 06:37:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 06:37:55 UTC] PHP Notice:  Trying to get property 'PIN' of non-object in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 36
+[14-Jul-2023 10:40:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:41:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:42:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:43:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:43:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:45:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:46:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:46:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:46:40 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 31
+[14-Jul-2023 10:46:40 UTC] PHP Notice:  Undefined property: stdClass::$pin in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 32
+[14-Jul-2023 10:46:40 UTC] PHP Notice:  Undefined property: stdClass::$transid in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 34
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[14-Jul-2023 10:47:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[14-Jul-2023 10:48:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:48:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 10:48:27 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 31
+[14-Jul-2023 10:48:27 UTC] PHP Notice:  Undefined property: stdClass::$pin in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 32
+[14-Jul-2023 10:48:27 UTC] PHP Notice:  Undefined property: stdClass::$transid in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 34
+[14-Jul-2023 11:45:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 11:45:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 11:45:32 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 33
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[14-Jul-2023 15:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Undefined variable: pins in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 48
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Undefined variable: apiRespone in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 109
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Undefined variable: apiRespone in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 109
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Undefined variable: apiRespone in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 109
+[14-Jul-2023 15:01:21 UTC] PHP Notice:  Undefined variable: apiRespone in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 153
+[14-Jul-2023 15:02:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:02:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:02:17 UTC] PHP Notice:  Undefined property: stdClass::$AccessToken in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 132
+[14-Jul-2023 15:02:17 UTC] PHP Notice:  Undefined property: stdClass::$pin in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 19
+[14-Jul-2023 15:02:17 UTC] PHP Notice:  Undefined property: stdClass::$transid in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 21
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[14-Jul-2023 15:03:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[14-Jul-2023 15:07:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:07:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 15:07:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/marklbys/markersapi.com.ng/app/inc/datacard.php on line 33
+[14-Jul-2023 20:39:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 00:14:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 00:15:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 00:16:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 75
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 76
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 77
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 78
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 79
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 80
+[20-Jul-2023 00:18:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/transaction-view/datacard/index.php on line 81
+[20-Jul-2023 06:35:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 06:35:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 06:38:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 06:38:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 07:16:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[20-Jul-2023 07:16:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 09:18:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 09:18:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 16:48:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 16:48:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81

@@ -1,0 +1,1 @@
+{"id":1680425,"ident":"Airtime6beab5ef5-0fa","airtime_type":"VTU","network":1,"paid_amount":"97.0","mobile_number":"08065439728","amount":"100","plan_amount":"N100","plan_network":"MTN","balance_before":"5386.582000000002","balance_after":"5289.582000000002","Status":"successful","create_date":"2023-07-25T11:46:10.729157","Ported_number":true,"api_response":""}

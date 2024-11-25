@@ -1,0 +1,410 @@
+[10-Jan-2022 08:21:26 UTC] PHP Notice:  Undefined variable: debit in /home/eloarjzq/public_html/superjaraserver/inc/confirm-transaction.php on line 34
+[10-Jan-2022 08:21:26 UTC] PHP Notice:  Undefined variable: charge in /home/eloarjzq/public_html/superjaraserver/inc/confirm-transaction.php on line 92
+[14-Jan-2023 15:50:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func1.php on line 74
+[14-Jan-2023 15:50:36 UTC] PHP Warning:  Undefined variable $prod in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 84
+[14-Jan-2023 15:50:36 UTC] PHP Warning:  Undefined variable $charge in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 92
+[14-Jan-2023 15:51:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func1.php on line 74
+[14-Jan-2023 15:51:09 UTC] PHP Warning:  Undefined variable $prod in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 84
+[14-Jan-2023 15:51:09 UTC] PHP Warning:  Undefined variable $charge in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 92
+[14-Jan-2023 15:51:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func1.php on line 74
+[14-Jan-2023 15:51:12 UTC] PHP Warning:  Undefined variable $uid in /home/billscom/app.247bills.ng/inc/flutterwave-bill.php on line 12
+[14-Jan-2023 15:51:12 UTC] PHP Warning:  Undefined variable $phon in /home/billscom/app.247bills.ng/inc/flutterwave-bill.php on line 32
+[14-Jan-2023 15:51:13 UTC] PHP Warning:  Undefined variable $prod in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 84
+[14-Jan-2023 15:51:13 UTC] PHP Warning:  Undefined variable $charge in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 92
+[14-Jan-2023 15:51:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func1.php on line 74
+[14-Jan-2023 15:51:39 UTC] PHP Warning:  Undefined variable $prod in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 84
+[14-Jan-2023 15:51:39 UTC] PHP Warning:  Undefined variable $charge in /home/billscom/app.247bills.ng/inc/confirm-transaction.php on line 92
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/nairase/public_html/app/inc/func1.php on line 82
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined variable: debit in /home/nairase/public_html/app/inc/confirm-transaction.php on line 23
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined variable: charge in /home/nairase/public_html/app/inc/confirm-transaction.php on line 81
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined index: reflink in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 323
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined index: refid in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 323
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined index: refcount in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 326
+[13-Apr-2023 06:26:09 UTC] PHP Notice:  Undefined index: refwallet in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 328
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/nairase/public_html/app/inc/func1.php on line 82
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined variable: prod in /home/nairase/public_html/app/inc/confirm-transaction.php on line 73
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined variable: charge in /home/nairase/public_html/app/inc/confirm-transaction.php on line 81
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined index: reflink in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 323
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined index: refid in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 323
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined index: refcount in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 326
+[13-Apr-2023 06:54:56 UTC] PHP Notice:  Undefined index: refwallet in /home/nairase/public_html/app/transaction-view/upgrade/index.php on line 328
+[22-May-2023 15:31:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined variable $debit in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 23
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined variable $charge in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 81
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 323
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 323
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 326
+[22-May-2023 15:31:35 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 328
+[22-May-2023 15:31:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func1.php on line 82
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined variable $debit in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 23
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined variable $charge in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 81
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 323
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 323
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 326
+[22-May-2023 15:31:42 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/upgrade/index.php on line 328
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[01-Jul-2023 17:16:58 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[01-Jul-2023 17:17:08 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[02-Jul-2023 21:58:17 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[02-Jul-2023 21:58:47 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[05-Jul-2023 21:54:31 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[05-Jul-2023 21:54:42 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 06:25:15 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 08:31:34 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 08:37:18 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 08:38:16 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 08:42:49 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 19:25:21 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 19:25:34 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[07-Jul-2023 19:26:58 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[09-Jul-2023 14:07:20 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[09-Jul-2023 14:14:55 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[09-Jul-2023 14:14:59 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[09-Jul-2023 14:15:22 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[10-Jul-2023 21:15:26 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[10-Jul-2023 21:16:14 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[10-Jul-2023 21:16:26 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[12-Jul-2023 20:35:22 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[12-Jul-2023 20:35:28 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[13-Jul-2023 11:51:01 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[13-Jul-2023 11:51:17 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[13-Jul-2023 11:54:24 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[13-Jul-2023 11:55:13 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[14-Jul-2023 07:19:21 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[14-Jul-2023 07:19:28 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[14-Jul-2023 07:19:49 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:13:08 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:20:54 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:21:02 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:21:33 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:42:58 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:43:04 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[16-Jul-2023 21:48:06 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[19-Jul-2023 11:03:17 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[19-Jul-2023 11:03:24 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[19-Jul-2023 12:54:52 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[19-Jul-2023 12:55:12 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[19-Jul-2023 12:55:19 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[21-Jul-2023 21:07:26 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 128
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: alltime in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 132
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined variable: service in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 137
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined variable: debit in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 23
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 81
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[21-Jul-2023 21:08:06 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func1.php on line 81
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined variable: decoder in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 13
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined variable: iuc in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 14
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined variable: showAddress in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 19
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined variable: charge in /home/marklbys/markersapi.com.ng/app/inc/transaction-details.php on line 26
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 323
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 326
+[21-Jul-2023 21:08:33 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/upgrade/index.php on line 328

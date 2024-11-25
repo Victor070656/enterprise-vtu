@@ -1,0 +1,1 @@
+{"amount":"100.00","message":"Successful","status":"200","transId":"1680238425102","date":"2023-03-31 05:53:46","phone":"08034474296","package":"100MB"}

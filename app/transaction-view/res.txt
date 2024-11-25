@@ -1,0 +1,1 @@
+{"message":"Payment Failed, Insufficient balance to complete transaction","status":"300","amount":"100"}

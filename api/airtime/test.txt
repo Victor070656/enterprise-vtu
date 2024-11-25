@@ -1,0 +1,2 @@
+
+{"code":101,"description":{"response_description":"TRANSACTION SUCCESSFUL","ref":"8911740059682376","amount":"100","transaction_date":"2023-07-17 04:37:PM"}}

@@ -1,0 +1,493 @@
+[08-Aug-2021 15:33:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[08-Aug-2021 15:33:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[10-Aug-2021 02:06:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[10-Aug-2021 02:06:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[10-Aug-2021 02:15:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[10-Aug-2021 02:15:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dotrech/public_html/en/inc/func.php on line 78
+[07-Dec-2021 15:20:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/paypinco/portal.paypin.com.ng/receipt/index.php on line 73
+[07-Dec-2021 15:55:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/paypinco/portal.paypin.com.ng/receipt/index.php on line 73
+[07-Dec-2021 16:01:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/paypinco/portal.paypin.com.ng/receipt/index.php on line 73
+[07-Dec-2021 16:03:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/paypinco/portal.paypin.com.ng/receipt/index.php on line 73
+[07-Dec-2021 17:50:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/paypinco/portal.paypin.com.ng/receipt/index.php on line 73
+[18-May-2022 05:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[18-May-2022 06:07:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[19-May-2022 15:04:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[23-May-2022 09:59:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[23-May-2022 19:49:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[25-May-2022 12:13:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[26-May-2022 21:16:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[29-May-2022 15:26:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 80
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 80
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 80
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 80
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 157
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 157
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 163
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 163
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 168
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 168
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 178
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 178
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 186
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 186
+[29-May-2022 18:50:56 UTC] PHP Warning:  Undefined variable $trid in /home/izipayc/public_html/app/receipt/index.php on line 191
+[29-May-2022 18:50:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/receipt/index.php on line 191
+[30-May-2022 09:42:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[30-May-2022 09:44:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[30-May-2022 09:44:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[31-May-2022 08:57:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/izipayc/public_html/app/inc/func.php on line 70
+[18-Jan-2023 15:40:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[18-Jan-2023 15:40:53 UTC] PHP Warning:  Undefined array key "servicetype" in /home/billscom/app.247bills.ng/receipt/index.php on line 80
+[18-Jan-2023 15:42:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[18-Jan-2023 15:42:04 UTC] PHP Warning:  Undefined array key "servicetype" in /home/billscom/app.247bills.ng/receipt/index.php on line 80
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 11
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 12
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 13
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 14
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 15
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 16
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 17
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 18
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 19
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 20
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 21
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 22
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 23
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 25
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 38
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/gravatar.php on line 2
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/header1.php on line 76
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/header1.php on line 76
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/nav2.php on line 4
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Undefined array key "metertoken" in /home/billscom/app.247bills.ng/receipt/index.php on line 84
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Undefined array key "customerName" in /home/billscom/app.247bills.ng/receipt/index.php on line 112
+[20-Jan-2023 21:53:22 UTC] PHP Warning:  Undefined array key "metertoken" in /home/billscom/app.247bills.ng/receipt/index.php on line 117
+[12-Apr-2023 16:12:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/nairase/public_html/app/inc/func.php on line 81
+[12-Apr-2023 16:12:25 UTC] PHP Notice:  Undefined index: customerName in /home/nairase/public_html/app/receipt/index.php on line 112
+[27-Apr-2023 22:33:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-Apr-2023 22:33:33 UTC] PHP Warning:  Undefined array key "customerName" in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 112
+[27-May-2023 04:51:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-May-2023 04:51:56 UTC] PHP Warning:  Undefined array key "customerName" in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 111
+[27-May-2023 05:07:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-May-2023 05:07:28 UTC] PHP Warning:  Undefined array key "customerName" in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 111
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 79
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 79
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 79
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 79
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 156
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 156
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 162
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 162
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 167
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 167
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 177
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 177
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 185
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 185
+[27-May-2023 22:54:20 UTC] PHP Warning:  Undefined variable $trid in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 190
+[27-May-2023 22:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/receipt/index.php on line 190
+[03-Jul-2023 15:19:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 15:19:46 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[03-Jul-2023 15:25:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 15:25:13 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[03-Jul-2023 15:32:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 15:32:15 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[03-Jul-2023 21:09:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 21:09:30 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[04-Jul-2023 06:33:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[04-Jul-2023 06:33:09 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[05-Jul-2023 23:23:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[05-Jul-2023 23:25:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[06-Jul-2023 01:39:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[06-Jul-2023 01:39:58 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[06-Jul-2023 01:42:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[06-Jul-2023 01:42:48 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[06-Jul-2023 01:43:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[06-Jul-2023 01:43:54 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[06-Jul-2023 18:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[07-Jul-2023 10:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[07-Jul-2023 10:36:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[07-Jul-2023 10:36:50 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[07-Jul-2023 18:03:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[08-Jul-2023 13:35:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 13:35:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[08-Jul-2023 13:51:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[08-Jul-2023 15:56:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 15:56:14 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[08-Jul-2023 19:01:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 19:01:22 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[08-Jul-2023 23:12:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 23:12:16 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[08-Jul-2023 23:12:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[08-Jul-2023 23:12:54 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[10-Jul-2023 11:07:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[10-Jul-2023 22:27:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[10-Jul-2023 22:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[10-Jul-2023 22:46:00 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[10-Jul-2023 22:50:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[10-Jul-2023 22:50:00 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[11-Jul-2023 08:20:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[11-Jul-2023 12:06:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 06:33:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 07:33:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 09:41:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 09:45:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[13-Jul-2023 09:45:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[13-Jul-2023 09:45:23 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[14-Jul-2023 20:43:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[14-Jul-2023 21:21:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[14-Jul-2023 21:25:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[15-Jul-2023 04:56:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 79
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 162
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 167
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 177
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 185
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[18-Jul-2023 13:27:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 190
+[19-Jul-2023 11:00:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 11:00:27 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 111
+[19-Jul-2023 11:01:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 11:01:40 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 11:13:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 11:13:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 16:22:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 16:22:32 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 16:22:32 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[19-Jul-2023 16:22:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 16:22:57 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 16:22:57 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[19-Jul-2023 16:23:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 16:23:55 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 16:23:55 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[19-Jul-2023 18:11:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 18:11:11 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 18:11:11 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[19-Jul-2023 20:31:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 20:31:18 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 20:31:18 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[19-Jul-2023 21:18:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 21:18:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[19-Jul-2023 21:18:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 03:10:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 03:10:14 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 03:10:14 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 03:56:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 03:56:10 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 06:02:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 06:02:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 06:02:47 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 06:03:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 06:03:09 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 06:03:09 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[20-Jul-2023 06:03:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 06:03:45 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 06:03:45 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 06:54:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 06:54:53 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 06:54:53 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 07:58:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 07:58:42 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 07:58:42 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[20-Jul-2023 08:55:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 08:55:08 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 08:55:08 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 08:57:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 08:57:50 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 08:57:50 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 11:38:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 11:38:31 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 11:38:31 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[20-Jul-2023 11:39:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 11:39:21 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 11:39:21 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[20-Jul-2023 22:59:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 22:59:59 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 22:59:59 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[20-Jul-2023 23:00:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[20-Jul-2023 23:00:14 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[20-Jul-2023 23:00:14 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[21-Jul-2023 05:53:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[21-Jul-2023 05:53:33 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[21-Jul-2023 05:53:33 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[21-Jul-2023 16:28:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[21-Jul-2023 16:28:23 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[21-Jul-2023 16:28:23 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[22-Jul-2023 05:37:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[22-Jul-2023 05:37:36 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[22-Jul-2023 05:37:36 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[22-Jul-2023 09:28:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[22-Jul-2023 09:28:05 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[22-Jul-2023 09:28:05 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 77
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 77
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 77
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 77
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 95
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 95
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 107
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 107
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: showtk in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 149
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 153
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 153
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: showMeter in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 156
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 159
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 159
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 164
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 164
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: showTabb in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 168
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 174
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 174
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 182
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 182
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Undefined variable: trid in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 187
+[22-Jul-2023 16:16:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 187
+[23-Jul-2023 08:22:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[23-Jul-2023 08:22:13 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[23-Jul-2023 08:22:13 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99
+[23-Jul-2023 10:07:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[23-Jul-2023 10:07:56 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[23-Jul-2023 12:09:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[23-Jul-2023 12:09:04 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[24-Jul-2023 09:48:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[24-Jul-2023 09:48:57 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 120
+[24-Jul-2023 09:48:57 UTC] PHP Notice:  Undefined index: customerName in /home/marklbys/markersapi.com.ng/app/receipt/index.php on line 99

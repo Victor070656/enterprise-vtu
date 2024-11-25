@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_del" value="name:user_id;datatype:int,name:firstname;datatype:string,name:lastname;datatype:string,name:email;datatype:string,name:pass;datatype:string,name:phone;datatype:string,name:joining_date;datatype:timestamp,name:level;datatype:string,name:IPaddress;datatype:string,name:block;datatype:string,name:activate;datatype:string,name:blockinfo;datatype:string,name:blockstat;datatype:string,name:del;datatype:string" />
+	<infoitem key="UD_delpro" value="name:serial;datatype:int,name:file;datatype:string,name:type;datatype:string,name:size;datatype:string,name:title;datatype:string,name:category;datatype:string,name:description;datatype:string,name:shortdes;datatype:string,name:salespage;datatype:string,name:download;datatype:string,name:code;datatype:string,name:date;datatype:timestamp,name:del;datatype:string,name:downloadbutton;datatype:string,name:detailbutton;datatype:string" />
+	<infoitem key="UD_delpay" value="name:serial;datatype:int,name:file;datatype:string,name:type;datatype:string,name:size;datatype:string,name:name;datatype:string,name:email;datatype:string,name:phone;datatype:string,name:date;datatype:timestamp" />
+</info>

@@ -1,0 +1,2 @@
+
+{"code":101,"description":{"status":"TRANSACTION SUCCESSFUL","PIN":"0000002384588861415711214872167144000000100BC\r","network":"mtn","pinDenomination":"100","pinQuantity":1,"product_name":"MTN ePIN 100","TransactionDate":"2023-07-10 10:02:AM"}}    

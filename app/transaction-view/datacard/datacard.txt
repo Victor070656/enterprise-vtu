@@ -1,0 +1,1 @@
+{"network":"MTN","transid":"Data_card_64bab6d7e647f","request-id":"Data_card_64bab6d7e647f","amount":135,"quantity":"1","status":"success","message":"MTN Data Card Printing Successful","card_name":"markerapi","oldbal":"4485","newbal":4350,"system":"API","serial":"344256700_346","pin":"\t\t\t\t\t\n495938548S","load_pin":"*460*6*1# Then PIN","check_balance":"*131*4#"}

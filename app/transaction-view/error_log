@@ -1,0 +1,361 @@
+[25-Apr-2021 05:52:20 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/rechyimu/public_html/app/inc/paystack-air.php on line 38
+[25-Apr-2021 05:52:20 America/New_York] PHP Notice:  Undefined index: data in /home/rechyimu/public_html/app/inc/paystack-air.php on line 49
+[25-Apr-2021 05:52:49 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/rechyimu/public_html/app/inc/paystack-air.php on line 38
+[25-Apr-2021 05:52:49 America/New_York] PHP Notice:  Undefined index: data in /home/rechyimu/public_html/app/inc/paystack-air.php on line 49
+[25-Apr-2021 08:46:53 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/rechyimu/public_html/app/inc/paystack-air.php on line 38
+[25-Apr-2021 09:01:16 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/rechyimu/public_html/app/inc/paystack-air.php on line 38
+[19-Jan-2022 02:18:38 UTC] PHP Notice:  Undefined index: code in /home/eloarjzq/public_html/superjaraserver/inc/smeplug_airtime.php on line 36
+[19-Jan-2022 02:22:25 UTC] PHP Notice:  Undefined index: code in /home/eloarjzq/public_html/superjaraserver/inc/smeplug_airtime.php on line 34
+[19-Jan-2022 03:13:14 UTC] PHP Notice:  Undefined variable: decoder in /home/eloarjzq/public_html/superjaraserver/inc/transaction-details.php on line 13
+[19-Jan-2022 03:13:14 UTC] PHP Notice:  Undefined variable: iuc in /home/eloarjzq/public_html/superjaraserver/inc/transaction-details.php on line 14
+[19-Jan-2022 03:13:14 UTC] PHP Notice:  Undefined variable: customer in /home/eloarjzq/public_html/superjaraserver/inc/transaction-details.php on line 17
+[19-Jan-2022 03:13:14 UTC] PHP Notice:  Undefined variable: showAddress in /home/eloarjzq/public_html/superjaraserver/inc/transaction-details.php on line 19
+[19-Jan-2022 03:13:14 UTC] PHP Notice:  Undefined variable: chargeAmt in /home/eloarjzq/public_html/superjaraserver/inc/transaction-details.php on line 35
+[19-Jan-2022 03:14:12 UTC] PHP Notice:  Undefined index: status in /home/eloarjzq/public_html/superjaraserver/inc/smeplug_airtime.php on line 33
+[11-Jan-2023 10:26:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/billscom/app.247bills.ng/inc/header1.php:73) in /home/billscom/app.247bills.ng/inc/vtairtime.php on line 56
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Undefined array key "reflink" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Undefined array key "refid" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Undefined array key "refcount" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 391
+[11-Jan-2023 10:26:18 UTC] PHP Warning:  Undefined array key "refwallet" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 393
+[20-Jan-2023 19:33:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[20-Jan-2023 19:33:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 82
+[20-Jan-2023 19:33:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/billscom/app.247bills.ng/inc/header1.php:73) in /home/billscom/app.247bills.ng/inc/vtairtime.php on line 56
+[20-Jan-2023 19:33:55 UTC] PHP Warning:  Undefined array key "reflink" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[20-Jan-2023 19:33:55 UTC] PHP Warning:  Undefined array key "refid" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[20-Jan-2023 19:33:55 UTC] PHP Warning:  Undefined array key "refcount" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 391
+[20-Jan-2023 19:33:55 UTC] PHP Warning:  Undefined array key "refwallet" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 393
+[29-Jan-2023 05:55:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 81
+[29-Jan-2023 05:55:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 81
+[29-Jan-2023 05:55:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/billscom/app.247bills.ng/inc/header1.php:73) in /home/billscom/app.247bills.ng/inc/vtairtime.php on line 56
+[29-Jan-2023 05:55:22 UTC] PHP Warning:  Undefined array key "reflink" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[29-Jan-2023 05:55:22 UTC] PHP Warning:  Undefined array key "refid" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[29-Jan-2023 05:55:22 UTC] PHP Warning:  Undefined array key "refcount" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 391
+[29-Jan-2023 05:55:22 UTC] PHP Warning:  Undefined array key "refwallet" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 393
+[29-Jan-2023 22:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 81
+[29-Jan-2023 22:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/billscom/app.247bills.ng/inc/func.php on line 81
+[29-Jan-2023 22:34:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/billscom/app.247bills.ng/inc/header1.php:73) in /home/billscom/app.247bills.ng/inc/vtairtime.php on line 56
+[29-Jan-2023 22:34:03 UTC] PHP Warning:  Undefined array key "reflink" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[29-Jan-2023 22:34:03 UTC] PHP Warning:  Undefined array key "refid" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 388
+[29-Jan-2023 22:34:03 UTC] PHP Warning:  Undefined array key "refcount" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 391
+[29-Jan-2023 22:34:03 UTC] PHP Warning:  Undefined array key "refwallet" in /home/billscom/app.247bills.ng/transaction-view/index.php on line 393
+[31-Mar-2023 09:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function earnlog() in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php:76
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php(211): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 76
+[31-Mar-2023 09:37:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function earnlog() in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php:76
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php(211): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 76
+[31-Mar-2023 10:06:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Adddearnlog() in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php:71
+Stack trace:
+#0 /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php(211): include()
+#1 {main}
+  thrown in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 71
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[11-Apr-2023 16:17:55 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[11-Apr-2023 16:18:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/payflex.php on line 66
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/payflex.php on line 203
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/payflex.php on line 70
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[11-Apr-2023 16:18:06 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:07:32 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:07:43 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:08:12 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 172
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:08:32 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined variable $prod in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 73
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined variable $payable in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 96
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:09:07 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 41
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined property: mysqli_result::$fetch_assoc in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 76
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 80
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "email" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/gravatar.php on line 2
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "level" in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/nav2.php on line 4
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined variable $prod in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 73
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined variable $payable in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 96
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 01:09:15 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 03:35:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 81
+[12-Apr-2023 03:35:24 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:35:24 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:35:24 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 03:35:24 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 81
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined variable $prod in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 73
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined variable $payable in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/confirm-transaction.php on line 96
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 03:36:04 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 03:38:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 81
+[12-Apr-2023 03:38:48 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:38:48 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:38:48 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 03:38:48 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 03:39:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 81
+[12-Apr-2023 03:39:07 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:39:07 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:39:07 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 03:39:07 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[12-Apr-2023 03:39:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/vtu5/inc/func.php on line 81
+[12-Apr-2023 03:39:34 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:39:34 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 404
+[12-Apr-2023 03:39:34 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 407
+[12-Apr-2023 03:39:34 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/vtu5/transaction-view/index.php on line 409
+[19-Apr-2023 10:37:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[19-Apr-2023 10:37:18 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[19-Apr-2023 10:37:18 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[19-Apr-2023 10:37:18 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[19-Apr-2023 10:37:18 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[19-Apr-2023 10:37:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[19-Apr-2023 10:37:49 UTC] PHP Warning:  Undefined property: stdClass::$code in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 98
+[19-Apr-2023 10:37:49 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[19-Apr-2023 10:37:49 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[19-Apr-2023 10:37:49 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[19-Apr-2023 10:37:49 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 06:29:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 06:29:47 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:29:47 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:29:47 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 06:29:47 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 06:29:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 06:29:52 UTC] PHP Warning:  Undefined property: stdClass::$code in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 98
+[22-Apr-2023 06:29:52 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:29:52 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:29:52 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 06:29:52 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 06:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 06:37:20 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:37:20 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:37:20 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 06:37:20 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 06:37:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 66
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 203
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 70
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 06:37:28 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 21:35:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 21:35:24 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 21:35:24 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 21:35:24 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 21:35:24 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[22-Apr-2023 21:36:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 66
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 203
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 70
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[22-Apr-2023 21:36:16 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[23-Apr-2023 18:31:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[23-Apr-2023 18:31:21 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[23-Apr-2023 18:31:21 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[23-Apr-2023 18:31:21 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[23-Apr-2023 18:31:21 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[23-Apr-2023 18:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 66
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 203
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 70
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[23-Apr-2023 18:31:36 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[27-Apr-2023 10:30:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-Apr-2023 10:30:33 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 10:30:33 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 10:30:33 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[27-Apr-2023 10:30:33 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[27-Apr-2023 11:01:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-Apr-2023 11:01:23 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 11:01:23 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 11:01:23 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[27-Apr-2023 11:01:23 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined variable $prod in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 73
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined variable $payable in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 96
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[27-Apr-2023 11:03:49 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[27-Apr-2023 13:33:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[27-Apr-2023 13:33:26 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 13:33:26 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[27-Apr-2023 13:33:26 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[27-Apr-2023 13:33:26 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined variable $prod in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 73
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined variable $payable in /home/eloadng/public_html/app.eloaded.ng/inc/confirm-transaction.php on line 96
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[28-Apr-2023 20:45:54 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[28-Apr-2023 20:50:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[28-Apr-2023 20:50:41 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:50:41 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:50:41 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[28-Apr-2023 20:50:41 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[28-Apr-2023 20:50:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 66
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 203
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 70
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[28-Apr-2023 20:51:01 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[28-Apr-2023 20:52:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $rp in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 104
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Attempt to read property "description" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 104
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $decoder in /home/eloadng/public_html/app.eloaded.ng/inc/transaction-details.php on line 13
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $iuc in /home/eloadng/public_html/app.eloaded.ng/inc/transaction-details.php on line 14
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $customer in /home/eloadng/public_html/app.eloaded.ng/inc/transaction-details.php on line 17
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $showAddress in /home/eloadng/public_html/app.eloaded.ng/inc/transaction-details.php on line 19
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined variable $chargeAmt in /home/eloadng/public_html/app.eloaded.ng/inc/transaction-details.php on line 35
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[28-Apr-2023 20:52:20 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[29-Apr-2023 19:28:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[29-Apr-2023 19:28:01 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[29-Apr-2023 19:28:01 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[29-Apr-2023 19:28:01 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[29-Apr-2023 19:28:01 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[29-Apr-2023 19:28:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Attempt to read property "refwallet" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 66
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Undefined variable $runBonus in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 203
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Attempt to read property "alltime" on null in /home/eloadng/public_html/app.eloaded.ng/inc/payflex.php on line 70
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[29-Apr-2023 19:28:23 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[02-May-2023 19:26:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[02-May-2023 19:26:35 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[02-May-2023 19:26:35 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[02-May-2023 19:26:35 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[02-May-2023 19:26:35 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[08-May-2023 11:15:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[08-May-2023 11:15:28 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[08-May-2023 11:15:28 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[08-May-2023 11:15:28 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[08-May-2023 11:15:28 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[08-May-2023 11:15:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eloadng/public_html/app.eloaded.ng/inc/func.php on line 81
+[08-May-2023 11:15:43 UTC] PHP Warning:  Undefined array key "reflink" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[08-May-2023 11:15:43 UTC] PHP Warning:  Undefined array key "refid" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 404
+[08-May-2023 11:15:43 UTC] PHP Warning:  Undefined array key "refcount" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 407
+[08-May-2023 11:15:43 UTC] PHP Warning:  Undefined array key "refwallet" in /home/eloadng/public_html/app.eloaded.ng/transaction-view/index.php on line 409
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[03-Jul-2023 21:35:04 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[03-Jul-2023 21:35:15 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[03-Jul-2023 21:35:29 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[19-Jul-2023 14:21:38 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[19-Jul-2023 14:23:30 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[19-Jul-2023 14:23:40 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/marklbys/markersapi.com.ng/app/inc/func.php on line 80
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined variable: prod in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 73
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined variable: payable in /home/marklbys/markersapi.com.ng/app/inc/confirm-transaction.php on line 96
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined index: reflink in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined index: refid in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 404
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined index: refcount in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 407
+[19-Jul-2023 19:26:29 UTC] PHP Notice:  Undefined index: refwallet in /home/marklbys/markersapi.com.ng/app/transaction-view/index.php on line 409

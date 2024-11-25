@@ -1,0 +1,1 @@
+{"reference":"Solution-Forth-Web-Resources-de366830-802a-48fc-97a7-2567ccd3dddb","session_id":"100033231026151912001028886542","amount":100000,"fee":45,"account_number":"4600427549","originator_account_number":"","originator_account_name":"Palmpay - GABRIEL  ONABULU","originator_bank":"","timestamp":"2023-10-26T15:19:44.964Z"}

@@ -1,0 +1,1 @@
+{"_id":"653b33cdae5601c1179746cf","nuban":"4602574416","email":"greatvita@gmail.com","phone":"B5ZZ_08034474296","contactfirstname":"Laura","contactlastname":"Michelle","createdon":"2023-10-27T03:51:41.554Z","virtualaccounts":[{"bank":"VFD MICROFINANCE BANK","nuban":"4602574416"}]}

@@ -1,0 +1,9 @@
+[26-Oct-2023 11:35:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 15
+[26-Oct-2023 11:36:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 15
+[26-Oct-2023 11:38:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 15
+[26-Oct-2023 11:38:13 UTC] PHP Fatal error:  Cannot redeclare vpayKey() (previously declared in /home/eloadng/public_html/pro/formrequest/createvfd.php:27) in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 27
+[26-Oct-2023 11:39:25 UTC] PHP Fatal error:  Cannot redeclare vpayKey() (previously declared in /home/eloadng/public_html/pro/formrequest/createvfd.php:28) in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 28
+[27-Oct-2023 03:59:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 18
+[27-Oct-2023 04:07:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 18
+[27-Oct-2023 04:08:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 18
+[27-Oct-2023 04:09:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eloadng/public_html/pro/formrequest/createvfd.php on line 18

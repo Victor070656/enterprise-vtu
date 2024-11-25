@@ -1,0 +1,1 @@
+provider=vpay&private=ac8926f1-c5cf-4004-977f-ca539685a610&secret=b991a357-43c6-4644-aaca-9877a23983c0&contractcode=&walletno=&username=solutionforts%40gmail.com&password=Chime266na!

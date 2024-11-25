@@ -1,0 +1,8 @@
+[24-Jun-2023 08:14:13 Africa/Lagos] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/mobilegu/public_html/api/nabteb/index.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/mobilegu/public_html/api/nabteb/index.php on line 196
+[24-Jun-2023 08:14:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/mobilegu/public_html/api/nabteb/index.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/mobilegu/public_html/api/nabteb/index.php on line 196

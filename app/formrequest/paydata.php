@@ -29,29 +29,29 @@ $network = $trans[0]['serviceid'];
 $phone = $trans[0]['phone'];
 $requestId = $trans[0]['ref'];
 
-if ($network == '01') {
+if ($network == '1') {
   $provider = "mtn";
   $img = 'Data-mtn.jpg';
-  $networkcode = "01";
+  $networkcode = "1";
   $networkcode2 = "1";
 }
-if ($network == '02') {
+if ($network == '3') {
   $provider = "glo";
   $img = 'GLO-Data.jpg';
-  $networkcode = "02";
-  $networkcode2 = "2";
-}
-if ($network == '03') {
-  $provider = "9mobile";
-  $img = '9mobile-Data.jpg';
-  $networkcode = "04";
+  $networkcode = "3";
   $networkcode2 = "3";
 }
-if ($network == '04') {
+if ($network == '4') {
+  $provider = "9mobile";
+  $img = '9mobile-Data.jpg';
+  $networkcode = "4";
+  $networkcode2 = "4";
+}
+if ($network == '2') {
   $provider = "airtel";
   $img = 'Airtel-Data.jpg';
-  $networkcode = "03";
-  $networkcode2 = "4";
+  $networkcode = "2";
+  $networkcode2 = "2";
 }
 
 
@@ -68,37 +68,37 @@ $UserIPAddress = $userDetails[0]['IPaddress'];
 $varUserId = $userDetails[0]['email'];
 
 $ftrow =  json_decode(fetchPackage($conn, $variation, $network), true);
-$network_fetch = $ftrow[0]['network'];
-$datatype_fetch = $ftrow[0]['datatype'];
-$plan_fetch = $ftrow[0]['plan'];
-$code_fetch = $ftrow[0]['plancode'];
-$userprice_fetch = floatval($ftrow[0]['price_user']);
-$apiprice_fetch = floatval($ftrow[0]['price_api']);
+$network_fetch = $ftrow[0]['network_id'];
+$datatype_fetch = $ftrow[0]['plan_type'];
+$plan_id = $ftrow[0]['plan_id'];
+$plan_fetch = $ftrow[0]['plan_name'];
+$code_fetch = $ftrow[0]['plan_code'];
+$userprice_fetch = floatval($ftrow[0]['amount']);
+// $apiprice_fetch = floatval($ftrow[0]['price_api']);
 $gateway_fetch = $ftrow[0]['gateway'];
-$dataType = $ftrow[0]['datatype'];
 $user_level = $userDetails[0]['level'];
-if ($user_level !== 'paid') {
-  $amount_value = $userprice_fetch;
-} else {
-  $amount_value = $apiprice_fetch;
-}
+// if ($user_level !== 'paid') {
+//   $amount_value = $userprice_fetch;
+// } else {
+//   $amount_value = $apiprice_fetch;
+// }
 
 
 switch ($network) {
-  case '01':
+  case '1':
     $network_code = 1;
     break;
 
-  case '02':
+  case '2':
+    $network_code = 2;
+    break;
+
+  case '3':
     $network_code = 3;
     break;
 
-  case '03':
+  case '4':
     $network_code = 4;
-    break;
-
-  case '04':
-    $network_code = 2;
     break;
 
   default:
@@ -109,9 +109,9 @@ $valu = strtoupper($provider) . ' ' . $plan_fetch;
 
 if (strval($trans[0]['status'] !== 'Completed')) {
 
-  if (floatval($amount_value) <= floatval($current_balance)) {
+  if (floatval($userprice_fetch) <= floatval($current_balance)) {
 
-    $newBalc =  strval(floatval($current_balance) - floatval($amount_value));
+    $newBalc =  strval(floatval($current_balance) - floatval($userprice_fetch));
 
     $callb = $_SERVER['SERVER_NAME'];
     $apiMulti = json_decode(Apidefault($conn, $code_fetch));
@@ -169,7 +169,7 @@ if (strval($trans[0]['status'] !== 'Completed')) {
         $apiRespone = $paytev_code->status;
         break;
       case 'n3t':
-        $resn3t = json_decode(n3t($conn, $network_code, $phone, $dataType, $requestId));
+        $resn3t = json_decode(n3t($conn, $network_code, $phone, $plan_id, $requestId));
         $msg = $resn3t->message;
         $apiRespone = $resn3t->status;
         break;
@@ -229,7 +229,7 @@ if (strval($trans[0]['status'] !== 'Completed')) {
 
 function fetchPackage($conn, $variation, $network)
 {
-  $qryPlan = $conn->query("SELECT * FROM data_package WHERE plancode='$variation' AND network='$network'");
+  $qryPlan = $conn->query("SELECT * FROM data_packages WHERE plan_code='$variation' AND network_id='$network'");
   while ($prow[] = $qryPlan->fetch_assoc()) {
   }
   return json_encode($prow);
@@ -528,7 +528,7 @@ function smeplug($conn, $smeplugnet_id, $code_fetch, $phone)
 
 function Apidefault($conn, $code_fetch)
 {
-  $query_MapiS = $conn->query("SELECT * FROM data_package WHERE plancode='$code_fetch'");
+  $query_MapiS = $conn->query("SELECT * FROM data_packages WHERE plan_code='$code_fetch'");
   $api_defualt = $query_MapiS->fetch_assoc();
   return json_encode($api_defualt);
 }

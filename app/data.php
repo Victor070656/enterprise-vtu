@@ -71,21 +71,21 @@ include('inc/header.php'); ?>
 
                 <label for="inputText3" class="col-form-label">Please Network To Recharge</label><br>
                 <label class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" name="carier" id="mtn" class="custom-control-input" value="01" onclick="javascript:showTv();"><span class="custom-control-label"><img src="assets/images/mtn.jpg" width="35" height="30" class="rounded-corners"></span>
+                  <input type="radio" name="carier" id="mtn" class="custom-control-input" value="1" onclick="javascript:showTv();"><span class="custom-control-label"><img src="assets/images/mtn.jpg" width="35" height="30" class="rounded-corners"></span>
                 </label>
 
 
                 <label class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" name="carier" id="airtel" class="custom-control-input" value="04" onclick="javascript:showTv();"><span class="custom-control-label"><img src="assets/images/airtel.jpg" width="35" height="30" class="rounded-corners"></span>
+                  <input type="radio" name="carier" id="airtel" class="custom-control-input" value="2" onclick="javascript:showTv();"><span class="custom-control-label"><img src="assets/images/airtel.jpg" width="35" height="30" class="rounded-corners"></span>
                 </label>
 
                 <label class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" name="carier" class="custom-control-input" value="02" onclick="javascript:showTv();" id="glo"><span class="custom-control-label"><img src="assets/images/glo.jpg" width="35" height="30" class="rounded-corners"></span>
+                  <input type="radio" name="carier" class="custom-control-input" value="3" onclick="javascript:showTv();" id="glo"><span class="custom-control-label"><img src="assets/images/glo.jpg" width="35" height="30" class="rounded-corners"></span>
                 </label>
 
 
                 <label class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" name="carier" class="custom-control-input" value="03" onclick="javascript:showTv();" id="9mobile"><span class="custom-control-label"><img src="assets/images/9mobile.jpg" width="35" height="30" class="rounded-corners"></span>
+                  <input type="radio" name="carier" class="custom-control-input" value="4" onclick="javascript:showTv();" id="9mobile"><span class="custom-control-label"><img src="assets/images/9mobile.jpg" width="35" height="30" class="rounded-corners"></span>
                 </label>
 
 
@@ -111,9 +111,9 @@ include('inc/header.php'); ?>
                       <select id="data_type" class="form-control rounded-right" name="dataplan" style="border-radius: 0px; height: 50px;" required>
                         <option selected disabled hidden>Select DataType</option>
                         <option id="SME" style="display: none;">SME</option>
-                        <option id="CG_LITE" style="display: none;">CG_LITE</option>
+                        <option id="CG_LITE" style="display: none;" value="CG_LITE">COOPERATE GIFTING</option>
                         <option id="GIFTING" style="display: none;">GIFTING</option>
-                        <option id="DIRECT" style="display: none;">DIRECT</option>
+                        <!-- <option id="DIRECT" style="display: none;">DIRECT</option> -->
 
                       </select>
                     </div>
@@ -125,38 +125,38 @@ include('inc/header.php'); ?>
 
 
                       <select class="form-control rounded-right" name="plan" id="cglite" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $mtncgl = $conn->query("SELECT * FROM data_package WHERE network='01' AND datatype='cglite' ORDER BY `price_user` ASC"); ?>
-                        <option selected disabled hidden>Select MTN CG LITE Data Plan</option>
+                        <?php $mtncgl = $conn->query("SELECT * FROM data_packages WHERE network_id='1' AND plan_type='COOPERATE GIFTING' ORDER BY `amount` ASC"); ?>
+                        <option selected disabled hidden>Select MTN COOPERATE GIFTING Data Plan</option>
 
                         <?php while ($mcgl = $mtncgl->fetch_assoc()) { ?>
-                          <option value="<?php echo $mcgl['serial']; ?>"> <?php echo $mcgl['plan'] . ' - ' . '&#x20A6;' . $mcgl['price_user']; ?> </option>
+                          <option value="<?php echo $mcgl['plan_id']; ?>"> <?php echo $mcgl['plan_name'] . ' - ' . '&#x20A6;' . $mcgl['amount'] . " - " . $mcgl["duration"]; ?> </option>
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="sme" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $mtnsme = $conn->query("SELECT * FROM data_package WHERE network='01' AND datatype='sme' ORDER BY `price_user` ASC"); ?>
+                        <?php $mtnsme = $conn->query("SELECT * FROM data_packages WHERE network_id='1' AND plan_type='SME' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select MTN SME Data Plan</option>
 
                         <?php while ($msm = $mtnsme->fetch_assoc()) { ?>
-                          <option value="<?php echo $msm['serial']; ?>"> <?php echo $msm['plan'] . ' - ' . '&#x20A6;' . $msm['price_user']; ?> </option>
+                          <option value="<?php echo $msm['plan_id']; ?>"> <?php echo $msm['plan_name'] . ' - ' . '&#x20A6;' . $msm['amount'] . " - " . $msm["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="cg" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $mtncg = $conn->query("SELECT * FROM data_package WHERE network='01' AND datatype='gifting' ORDER BY `price_user` ASC"); ?>
+                        <?php $mtncg = $conn->query("SELECT * FROM data_packages WHERE network_id='1' AND plan_type='GIFTING' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select MTN Gifting Plan</option>
 
                         <?php while ($mcg = $mtncg->fetch_assoc()) { ?>
-                          <option value="<?php echo $mcg['serial']; ?>"> <?php echo $mcg['plan'] . ' - ' . '&#x20A6;' . $mcg['price_user']; ?> </option>
+                          <option value="<?php echo $mcg['plan_id']; ?>"> <?php echo $mcg['plan_name'] . ' - ' . '&#x20A6;' . $mcg['amount'] . " - " . $mcg["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
-                      <select class="form-control rounded-right" name="plan" id="direct" style="border-radius: 0px; height: 50px; display: none">
+                      <!-- <select class="form-control rounded-right" name="plan" id="direct" style="border-radius: 0px; height: 50px; display: none">
                         <?php $mtndirect = $conn->query("SELECT * FROM data_package WHERE network='01' AND datatype='directdata' ORDER BY `price_user` ASC"); ?>
                         <option selected disabled hidden>Select MTN Direct Data Plan</option>
 
@@ -165,7 +165,7 @@ include('inc/header.php'); ?>
 
                         <?php } ?>
 
-                      </select>
+                      </select> -->
                     </div>
 
 
@@ -271,39 +271,39 @@ include('inc/header.php'); ?>
                           <option selected disabled hidden>Select DataType</option>
                           <option id="SME_AIRTEL" style="display: none;">SME</option>
                           <option id="GIFTING_AIRTEL" style="display: none;">GIFTING</option>
-                          <option id="DIRECT_AIRTEL" style="display: none;">DIRECT</option>
+                          <option id="DIRECT_AIRTEL" style="display: none;" value="DIRECT">COOPERATE GIFTING</option>
 
                         </select>
                       </div>
 
                       <select class="form-control rounded-right" name="plan" id="sme_airtel" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $airtelsme = $conn->query("SELECT * FROM data_package WHERE network='04' AND datatype='sme' ORDER BY `price_user` ASC"); ?>
+                        <?php $airtelsme = $conn->query("SELECT * FROM data_packages WHERE network_id='2' AND plan_type='SME' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Airtel Data Plan</option>
 
                         <?php while ($asm = $airtelsme->fetch_assoc()) { ?>
-                          <option value="<?php echo $asm['serial']; ?>"> <?php echo $asm['plan'] . ' - ' . '&#x20A6;' . $asm['price_user']; ?> </option>
+                          <option value="<?php echo $asm['plan_id']; ?>"> <?php echo $asm['plan_name'] . ' - ' . '&#x20A6;' . $asm['amount'] . " - " . $asm["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="cg_airtel" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $airtelcg = $conn->query("SELECT * FROM data_package WHERE network='04' AND datatype='gifting' ORDER BY `price_user` ASC"); ?>
+                        <?php $airtelcg = $conn->query("SELECT * FROM data_packages WHERE network_id='2' AND plan_type='GIFTING' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Airtel Gifting Plan</option>
 
                         <?php while ($acg = $airtelcg->fetch_assoc()) { ?>
-                          <option value="<?php echo $acg['serial']; ?>"> <?php echo $acg['plan'] . ' - ' . '&#x20A6;' . $acg['price_user']; ?> </option>
+                          <option value="<?php echo $acg['plan_id']; ?>"> <?php echo $acg['plan_name'] . ' - ' . '&#x20A6;' . $acg['amount'] . " - " . $acg["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="direct_airtel" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $airteldirect = $conn->query("SELECT * FROM data_package WHERE network='04' AND datatype='directdata' ORDER BY `price_user` ASC"); ?>
-                        <option selected disabled hidden>Select Airtel Direct Data Plan</option>
+                        <?php $airteldirect = $conn->query("SELECT * FROM data_packages WHERE network_id='2' AND plan_type='COOPERATE GIFTING' ORDER BY `amount` ASC"); ?>
+                        <option selected disabled hidden>Select Airtel Cooperate Gifting Data Plan</option>
 
                         <?php while ($adr = $airteldirect->fetch_assoc()) { ?>
-                          <option value="<?php echo $adr['serial']; ?>"> <?php echo $adr['plan'] . ' - ' . '&#x20A6;' . $adr['price_user']; ?> </option>
+                          <option value="<?php echo $adr['plan_id']; ?>"> <?php echo $adr['plan_name'] . ' - ' . '&#x20A6;' . $adr['amount'] . " - " . $adr["duration"]; ?> </option>
 
                         <?php } ?>
 
@@ -418,39 +418,39 @@ include('inc/header.php'); ?>
                           <option selected disabled hidden>Select DataType</option>
                           <option id="SME_GLO" style="display: none;">SME</option>
                           <option id="GIFTING_GLO" style="display: none;">GIFTING</option>
-                          <option id="DIRECT_GLO" style="display: none;">DIRECT</option>
+                          <option id="DIRECT_GLO" style="display: none;" value="DIRECT">COOPERATE GIFTING</option>
 
                         </select>
                       </div>
 
                       <select class="form-control rounded-right" name="plan" id="sme_glo" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $glosme = $conn->query("SELECT * FROM data_package WHERE network='02' AND datatype='sme' ORDER BY `price_user` ASC"); ?>
+                        <?php $glosme = $conn->query("SELECT * FROM data_packages WHERE network_id='3' AND plan_type='SME' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Glo SME Data Plan</option>
 
                         <?php while ($gsm = $glosme->fetch_assoc()) { ?>
-                          <option value="<?php echo $gsm['serial']; ?>"> <?php echo $gsm['plan'] . ' - ' . '&#x20A6;' . $gsm['price_user']; ?> </option>
+                          <option value="<?php echo $gsm['plan_id']; ?>"> <?php echo $gsm['plan_name'] . ' - ' . '&#x20A6;' . $gsm['amount'] . " - " . $gsm["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="cg_glo" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $glocg = $conn->query("SELECT * FROM data_package WHERE network='02' AND datatype='gifting' ORDER BY `price_user` ASC"); ?>
+                        <?php $glocg = $conn->query("SELECT * FROM data_packages WHERE network_id='3' AND plan_type='GIFTING' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Glo Gifting Plan</option>
 
                         <?php while ($gcg = $glocg->fetch_assoc()) { ?>
-                          <option value="<?php echo $gcg['serial']; ?>"> <?php echo $gcg['plan'] . ' - ' . '&#x20A6;' . $gcg['price_user']; ?> </option>
+                          <option value="<?php echo $gcg['plan_id']; ?>"> <?php echo $gcg['plan_name'] . ' - ' . '&#x20A6;' . $gcg['amount'] . " - " . $gcg["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="direct_glo" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $glodirect = $conn->query("SELECT * FROM data_package WHERE network='02' AND datatype='directdata' ORDER BY `price_user` ASC"); ?>
-                        <option selected disabled hidden>Select Glo Direct Data Plan</option>
+                        <?php $glodirect = $conn->query("SELECT * FROM data_packages WHERE network_id='3' AND plan_type='COOPERATE GIFTING' ORDER BY `amount` ASC"); ?>
+                        <option selected disabled hidden>Select Glo Cooperate Gifting Data Plan</option>
 
                         <?php while ($gdr = $glodirect->fetch_assoc()) { ?>
-                          <option value="<?php echo $gdr['serial']; ?>"> <?php echo $gdr['plan'] . ' - ' . '&#x20A6;' . $gdr['price_user']; ?> </option>
+                          <option value="<?php echo $gdr['plan_id']; ?>"> <?php echo $gdr['plan_name'] . ' - ' . '&#x20A6;' . $gdr['amount'] . " - " . $gdr["duration"]; ?> </option>
 
                         <?php } ?>
 
@@ -559,41 +559,41 @@ include('inc/header.php'); ?>
                         <label for="inputText3" class="col-form-label"></label>
                         <select id="data_type_eti" class="form-control rounded-right" name="dataplan" style="border-radius: 0px; height: 50px;" required>
                           <option selected disabled hidden>Select DataType</option>
-                          <option id="SME_ETI" style="display: none;">SME</option>
+                          <!-- <option id="SME_ETI" style="display: none;">SME</option> -->
                           <option id="GIFTING_ETI" style="display: none;">GIFTING</option>
-                          <option id="DIRECT_ETI" style="display: none;">DIRECT</option>
+                          <option id="DIRECT_ETI" style="display: none;" value="DIRECT">COOPERATE GIFTING</option>
 
                         </select>
                       </div>
 
                       <select class="form-control rounded-right" name="plan" id="sme_eti" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $etisme = $conn->query("SELECT * FROM data_package WHERE network='03' AND datatype='sme' ORDER BY `price_user` ASC"); ?>
+                        <?php $etisme = $conn->query("SELECT * FROM data_packages WHERE network_id='4' AND plan_type='SME' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select 9Mobile SME Data Plan</option>
 
                         <?php while ($esm = $etisme->fetch_assoc()) { ?>
-                          <option value="<?php echo $esm['serial']; ?>"> <?php echo $esm['plan'] . ' - ' . '&#x20A6;' . $esm['price_user']; ?> </option>
+                          <option value="<?php echo $esm['plan_id']; ?>"> <?php echo $esm['plan_name'] . ' - ' . '&#x20A6;' . $esm['amount'] . " - " . $esm["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="cg_eti" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $eticg = $conn->query("SELECT * FROM data_package WHERE network='03' AND datatype='gifting' ORDER BY `price_user` ASC"); ?>
+                        <?php $eticg = $conn->query("SELECT * FROM data_packages WHERE network_id='4' AND plan_type='GIFTING' ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select 9Mobile Gifting Plan</option>
 
                         <?php while ($ecg = $eticg->fetch_assoc()) { ?>
-                          <option value="<?php echo $ecg['serial']; ?>"> <?php echo $ecg['plan'] . ' - ' . '&#x20A6;' . $ecg['price_user']; ?> </option>
+                          <option value="<?php echo $ecg['plan_id']; ?>"> <?php echo $ecg['plan_name'] . ' - ' . '&#x20A6;' . $ecg['amount'] . " - " . $ecg["duration"]; ?> </option>
 
                         <?php } ?>
 
                       </select>
 
                       <select class="form-control rounded-right" name="plan" id="direct_eti" style="border-radius: 0px; height: 50px; display: none">
-                        <?php $etidirect = $conn->query("SELECT * FROM data_package WHERE network='03' AND datatype='directdata' ORDER BY `price_user` ASC"); ?>
-                        <option selected disabled hidden>Select 9Mobile Direct Data Plan</option>
+                        <?php $etidirect = $conn->query("SELECT * FROM data_packages WHERE network_id='4' AND plan_type='COOPERATE GIFTING' ORDER BY `amount` ASC"); ?>
+                        <option selected disabled hidden>Select 9Mobile Cooperate Gifting Data Plan</option>
 
                         <?php while ($edr = $etidirect->fetch_assoc()) { ?>
-                          <option value="<?php echo $edr['serial']; ?>"> <?php echo $edr['plan'] . ' - ' . '&#x20A6;' . $edr['price_user']; ?> </option>
+                          <option value="<?php echo $edr['plan_id']; ?>"> <?php echo $edr['plan_name'] . ' - ' . '&#x20A6;' . $edr['amount'] . " - " . $edr["duration"]; ?> </option>
 
                         <?php } ?>
 

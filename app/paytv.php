@@ -101,11 +101,11 @@ include('inc/header.php'); ?>
 
 
                       <select class="form-control rounded-right" name="plan" id="plan" style="border-radius: 0px; height: 50px;">
-                        <?php $mtncgl = $conn->query("SELECT * FROM tv_package WHERE network='gotv'  ORDER BY `amount` ASC"); ?>
+                        <?php $mtncgl = $conn->query("SELECT * FROM tv_packages WHERE cable='gotv'  ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Gotv Plan</option>
 
                         <?php while ($mcgl = $mtncgl->fetch_assoc()) { ?>
-                          <option value="<?php echo $mcgl['serial']; ?>"> <?php echo $mcgl['plan']; ?> </option>
+                          <option value="<?php echo $mcgl['plan_id']; ?>"> <?php echo $mcgl['plan_name'] . " N" . $mcgl['amount']; ?> </option>
                         <?php } ?>
 
                       </select>
@@ -143,32 +143,38 @@ include('inc/header.php'); ?>
                         if (smartno.toString().length >= 10) {
 
                           $.ajax({
-                              url: "formrequest/validatedecoder.php",
-                              type: 'GET',
-                              data: {
-                                id: selected,
-                                token: tok,
-                                iuc: smartno
-                              },
-                              beforeSend: function() {
-                                $("#amountpay").html('<i class="fa fa-spinner"></i> Validating IUC Number, Please wait...');
-                              },
-                            })
-                            .done(function(resp) {
+                            url: "formrequest/validatedecoder.php",
+                            type: 'GET',
+                            data: {
+                              id: selected,
+                              token: tok,
+                              iuc: smartno
+                            },
+                            beforeSend: function() {
+                              $("#amountpay").html('<i class="fa fa-spinner"></i> Validating IUC Number, Please wait...');
+                            },
+                            success: function(resp) {
                               res = JSON.parse(resp);
                               var msg = res['msg'];
                               var banquet = res['banquet'];
                               var name = res['name'];
                               var due = res['due'];
                               if (res['status'] === true) {
-                                $("#amountpay").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " | <b>Current Banquet:</b> " + banquet + " | <b>Due Date:</b> " + due + " ");
+                                $("#amountpay").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " ");
                                 $('#gotvorder').prop('disabled', false);
                               } else {
 
                                 $("#amountpay").html("<font color='red'><i class='fa fa-exclamation-circle'></i> " + msg + " </font>");
                                 $('#gotvorder').prop('disabled', true);
                               }
-                            });
+                            },
+                            error: function(xhr, status, error) {
+                              console.error("AJAX Error: ", error)
+                              console.log("Status: ", status)
+                              console.log("Server response: ", xhr.responseText)
+                            }
+                          })
+
 
 
                         } else if (smartno.toString().length < 10) {
@@ -202,7 +208,7 @@ include('inc/header.php'); ?>
                           },
                           success: function(data) {
                             // Process with the response data
-                            // alert(data);
+                            console.log(data);
                             if (data.status === true) {
                               var dirUrl = data.redirect;
                               const Toast = Swal.mixin({
@@ -267,11 +273,11 @@ include('inc/header.php'); ?>
 
 
                       <select class="form-control rounded-right" name="plan" id="dstvplan" style="border-radius: 0px; height: 50px;">
-                        <?php $airtelsme = $conn->query("SELECT * FROM tv_package WHERE network='dstv'  ORDER BY `amount` ASC"); ?>
+                        <?php $airtelsme = $conn->query("SELECT * FROM tv_packages WHERE cable='dstv'  ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Dstv Plan</option>
 
                         <?php while ($asm = $airtelsme->fetch_assoc()) { ?>
-                          <option value="<?php echo $asm['serial']; ?>"> <?php echo $asm['plan']; ?> </option>
+                          <option value="<?php echo $asm['plan_id']; ?>"> <?php echo $asm['plan_name'] . " N" . $asm['amount']; ?> </option>
 
                         <?php } ?>
 
@@ -328,7 +334,7 @@ include('inc/header.php'); ?>
                               var name = des['name'];
                               var due = des['due'];
                               if (des['status'] === true) {
-                                $("#dstv_stats").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " | <b>Current Banquet:</b> " + banquet + " | <b>Due Date:</b> " + due + " ");
+                                $("#dstv_stats").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " ");
                                 $('#dstvorder').prop('disabled', false);
                               } else {
 
@@ -437,11 +443,11 @@ include('inc/header.php'); ?>
                       </div>
 
                       <select class="form-control rounded-right" name="plan" id="stvplan" style="border-radius: 0px; height: 50px; ">
-                        <?php $glosme = $conn->query("SELECT * FROM tv_package WHERE network='startimes'  ORDER BY `amount` ASC"); ?>
+                        <?php $glosme = $conn->query("SELECT * FROM tv_packages WHERE cable='startimes'  ORDER BY `amount` ASC"); ?>
                         <option selected disabled hidden>Select Startimes Plan</option>
 
                         <?php while ($gsm = $glosme->fetch_assoc()) { ?>
-                          <option value="<?php echo $gsm['serial']; ?>"> <?php echo $gsm['plan']; ?> </option>
+                          <option value="<?php echo $gsm['plan_id']; ?>"> <?php echo $gsm['plan_name'] . " N" . $gsm['amount']; ?> </option>
 
                         <?php } ?>
 
@@ -481,32 +487,68 @@ include('inc/header.php'); ?>
                         if (stvsmartno.toString().length >= 10) {
 
                           $.ajax({
-                              url: "formrequest/validatedecoder.php",
-                              type: 'GET',
-                              data: {
-                                id: stvselected,
-                                token: stvtok,
-                                iuc: stvsmartno
-                              },
-                              beforeSend: function() {
-                                $("#statstar").html('<i class="fa fa-spinner"></i> Validating Smartcard Number, Please wait...');
-                              },
-                            })
-                            .done(function(respon) {
-                              ses = JSON.parse(respon);
-                              var msg = ses['msg'];
-                              var banquet = ses['banquet'];
-                              var name = ses['name'];
-                              var due = ses['due'];
-                              if (ses['status'] === true) {
-                                $("#statstar").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " | <b>Current Banquet:</b> " + banquet + " | <b>Due Date:</b> " + due + " ");
-                                $('#starorder').prop('disabled', false);
-                              } else {
-
-                                $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> " + msg + " </font>");
+                            url: "formrequest/validatedecoder.php",
+                            type: 'GET',
+                            data: {
+                              id: stvselected,
+                              token: stvtok,
+                              iuc: stvsmartno
+                            },
+                            beforeSend: function() {
+                              $("#statstar").html('<i class="fa fa-spinner"></i> Validating Smartcard Number, Please wait...');
+                            },
+                            success: function(respon) {
+                              console.log(respon);
+                              try {
+                                ses = JSON.parse(respon);
+                                var msg = ses['msg'];
+                                var banquet = ses['banquet'];
+                                var name = ses['name'];
+                                var due = ses['due'];
+                                if (ses['status'] === true) {
+                                  $("#statstar").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " ");
+                                  $('#starorder').prop('disabled', false);
+                                } else {
+                                  $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> " + msg + " </font>");
+                                  $('#starorder').prop('disabled', true);
+                                }
+                              } catch (e) {
+                                console.error("Error parsing response:", e);
+                                $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> Error validating smartcard number</font>");
                                 $('#starorder').prop('disabled', true);
                               }
-                            });
+                            },
+                            error: function(jqXHR, textStatus, errorThrown) {
+                              console.error("AJAX request failed:", textStatus, errorThrown);
+                              console.log("Server response: ", jqXHR.responseText);
+                            }
+                          })
+                          // .done(function(respon) {
+                          //   console.log(respon);
+                          //   try {
+                          //     ses = JSON.parse(respon);
+                          //     var msg = ses['msg'];
+                          //     var banquet = ses['banquet'];
+                          //     var name = ses['name'];
+                          //     var due = ses['due'];
+                          //     if (ses['status'] === true) {
+                          //       $("#statstar").html("<font color='green'><i class='fa fa-check-circle'></i> " + msg + " </font> <b>Customer Name:</b> " + name + " | <b>Current Banquet:</b> " + banquet + " | <b>Due Date:</b> " + due + " ");
+                          //       $('#starorder').prop('disabled', false);
+                          //     } else {
+                          //       $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> " + msg + " </font>");
+                          //       $('#starorder').prop('disabled', true);
+                          //     }
+                          //   } catch (e) {
+                          //     console.error("Error parsing response:", e);
+                          //     $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> Error validating smartcard number</font>");
+                          //     $('#starorder').prop('disabled', true);
+                          //   }
+                          // })
+                          // .fail(function(jqXHR, textStatus, errorThrown) {
+                          //   console.error("AJAX request failed:", textStatus, errorThrown);
+                          //   $("#statstar").html("<font color='red'><i class='fa fa-exclamation-circle'></i> Network error occurred</font>");
+                          //   $('#starorder').prop('disabled', true);
+                          // });
 
 
                         } else if (stvsmartno.toString().length < 10) {

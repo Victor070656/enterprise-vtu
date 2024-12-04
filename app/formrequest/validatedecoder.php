@@ -1,6 +1,8 @@
 <?php
 $error = array();
 $resp = array();
+$customerName = null;
+$decoderNo = null;
 
 $id = sanitize_input($_REQUEST['id']);
 $UserEmail = sanitize_input(base64_decode($_REQUEST['token']));
@@ -12,7 +14,8 @@ require_once('../db.php');
 $packInfo = json_decode(fetchPackage($conn, $id), true);
 
 $price = floatval($packInfo[0]['amount']);
-$network = $packInfo[0]['network'];
+$network = $packInfo[0]['cable_id'];
+$network_name = $packInfo[0]['cable'];
 $gateway = $packInfo[0]['gateway'];
 
 switch ($gateway) {
@@ -27,11 +30,11 @@ switch ($gateway) {
 
   case 'n3t':
     $result = n3tVerifyIUC($iuc, $network);
-    $customerName = $result->name;
+    $customerName = $result->name ?? null;
     $smart_no = $iuc;
     $customer_number = "";
     $invoice = "";
-    $service = $network;
+    $service = $network_name;
     break;
 
   case 'epins':
@@ -54,7 +57,7 @@ switch ($gateway) {
 }
 
 
-switch ($network) {
+switch ($network_name) {
   case 'gotv':
     $decoderNo = "IUC";
     break;
@@ -89,15 +92,15 @@ if (is_null($customerName)) {
   $resp['status'] = true;
   $resp['msg'] = '<font color="green">Success: </font> ';
   $resp['name'] = $customerName;
-  $resp['banquet'] = $result->description->Current_Bouquet;
-  $resp['due'] = $result->description->Due_Date;
+  // $resp['banquet'] = $result->description->Current_Bouquet;
+  // $resp['due'] = $result->description->Due_Date;
   echo json_encode($resp);
   exit();
 }
 
 function fetchPackage($conn, $id)
 {
-  $query = $conn->query("SELECT * FROM tv_package WHERE serial='$id'");
+  $query = $conn->query("SELECT * FROM tv_packages WHERE plan_id='$id'");
   while ($row[] = $query->fetch_assoc()) {
   }
   return json_encode($row);

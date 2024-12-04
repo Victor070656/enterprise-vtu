@@ -34,14 +34,17 @@ require_once('../db.php');
 
 if ($network == 'gotv') {
   $provider = "gotv";
+  $cable_id = 1;
   $img = 'Gotv-Payment.jpg';
 }
 if ($network == 'dstv') {
   $provider = "dstv";
+  $cable_id = 2;
   $img = 'Pay-DSTV-Subscription.jpg';
 }
 if ($network == 'startimes') {
   $provider = "startimes";
+  $cable_id = 3;
   $img = 'Startimes-Subscription.jpg';
 }
 
@@ -55,9 +58,10 @@ $UserEmail = $userDetails[0]['email'];
 $customNam = $userDetails[0]['firstname'] . ' ' . $userDetails[0]['lastname'];
 $user_account_type = $userDetails[0]['level'];
 $ftrow =  json_decode(fetchPackage($conn, $plan), true);
-$network_fetch = $ftrow[0]['network'];
-$plan_fetch = $ftrow[0]['plan'];
-$code_fetch = $ftrow[0]['plancode'];
+$network_fetch = $ftrow[0]['cable_id'];
+$plan_fetch = $ftrow[0][ 'plan_name'];
+$plan_id = $ftrow[0]['plan_id'];
+$code_fetch = $ftrow[0]['plan_code'];
 $userprice_fetch = floatval($ftrow[0]['amount']);
 $gateway_fetch = $ftrow[0]['gateway'];
 $status_fetch = $ftrow[0]['status'];
@@ -82,18 +86,20 @@ if ($status_fetch !== 'disabled') {
   switch ($user_account_type) {
 
     case 'free':
-      $per = $s_charge['gotv'][0];
+      // $per = $s_charge['gotv'][0];
+      $per = $s_charge[$provider][0];
       break;
 
     case 'paid':
-      $per =  $s_charge['gotv'][1];
+      // $per = $s_charge['gotv'][1];
+      $per =  $s_charge[$provider][1];
       break;
   }
 
   $discount = ($per / 100) * $userprice_fetch;
   $totalPayable = strval(floatval($userprice_fetch) - $discount);
   $stmtSmE = $conn->prepare("INSERT INTO transactions(network,serviceid,vcode,phone,ref,refer,amount,email,status,token,customer,date)VALUES(?,?,?,?,?,?,?,?,?,?,?,?)");
-  $stmtSmE->bind_Param("ssssssdsssss", $valu, $network, $code_fetch, $phone, $uid, $reference, $userprice_fetch, $UserEmail, $stat, $reference, $customNam, $dat);
+  $stmtSmE->bind_Param("ssssssdsssss", $valu, $network, $code_fetch, $phone, $uid, $reference, $totalPayable, $UserEmail, $stat, $reference, $customNam, $dat);
 
   if ($stmtSmE->execute()) {
     session_start();
@@ -102,6 +108,8 @@ if ($status_fetch !== 'disabled') {
     strval($_SESSION['phone'] = $phone);
     strval($_SESSION['transid'] = $uid);
     strval($_SESSION['plan'] = $plan_fetch);
+    strval($_SESSION['plan_id'] = $plan_id);
+    strval($_SESSION['cable_id'] = $network_fetch);
     strval($_SESSION['variation_code'] = $plan_fetch);
     strval($_SESSION['descr'] = $valu);
     strval($_SESSION['img'] = $img);
@@ -132,7 +140,7 @@ if ($status_fetch !== 'disabled') {
 
 function fetchPackage($conn, $plan)
 {
-  $qryPlan = $conn->query("SELECT * FROM tv_package WHERE serial='$plan'");
+  $qryPlan = $conn->query("SELECT * FROM tv_packages WHERE `plan_id`='$plan'");
   while ($prow[] = $qryPlan->fetch_assoc()) {
   }
   return json_encode($prow);

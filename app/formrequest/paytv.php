@@ -1,11 +1,15 @@
 <?php
 date_default_timezone_set('Africa/Lagos');
 $dat = date("Y-m-d h:i:s");
+$per = 0;
+$msg = "";
 
 $error = array();
 $resp = array();
 
 $token = sanitize_input($_REQUEST['_tok']);
+$cable_id = sanitize_input($_REQUEST['cable_id']);
+$plan_id = sanitize_input($_REQUEST['plan_id']);
 //////////////////////
 if (empty($token)) {
   $error[] = "Transaction token is empty";
@@ -55,11 +59,14 @@ $userPhone = $userDetails[0]['phone'];
 $UserIPAddress = $userDetails[0]['IPaddress'];
 $varUserId = $userDetails[0]['email'];
 $phoneNumber = $userDetails[0]['phone'];
+$user_account_type = $userDetails[0]['acctype'];
 
-$ftrow =  json_decode(fetchPackage($conn, $variation, $network), true);
-$network_fetch = $ftrow[0]['network'];
-$plan_fetch = $ftrow[0]['plan'];
-$code_fetch = $ftrow[0]['plancode'];
+$ftrow =  json_decode(fetchPackage($conn, $plan_id), true);
+$network_fetch = $ftrow[0]['cable'];
+$network_id = $ftrow[0]['cable_id'];
+$plan_fetch = $ftrow[0]['plan_name'];
+$planid = $ftrow[0]['plan_id'];
+$code_fetch = $ftrow[0]['plan_code'];
 $userprice_fetch = floatval($ftrow[0]['amount']);
 $gateway_fetch = $ftrow[0]['gateway'];
 
@@ -81,11 +88,11 @@ foreach ($arry as $ai => $jz) {
 switch ($user_account_type) {
 
   case 'free':
-    $per = $s_charge['gotv'][0];
+    $per = $s_charge[$provider][0];
     break;
 
   case 'paid':
-    $per =  $s_charge['gotv'][1];
+    $per =  $s_charge[$provider][1];
     break;
 }
 
@@ -142,6 +149,12 @@ if (strval($trans[0]['status'] !== 'Completed')) {
         $apiRespone = $paytev_code->status;
         break;
 
+      case 'n3t':
+        $payn3t = json_decode(n3t($conn, $cable_id, $phone, $plan_id, $requestId));
+        $apiRespone = $payn3t->status;
+        $msg = $payn3t->message;
+        break;
+
       default:
     }
 
@@ -149,7 +162,7 @@ if (strval($trans[0]['status'] !== 'Completed')) {
 
 
 
-    if ($apiRespone == '101' or $apiRespone == '201' or $apiRespone === '000' or $apiRespone == '200' or $apiRespone === 'true' or $apiRespone === 'successful') {
+    if ($apiRespone == '101' or $apiRespone == '201' or $apiRespone === '000' or $apiRespone == '200' or $apiRespone === 'true' or $apiRespone === 'successful' or $apiRespone === 'success') {
 
       UserdebitWallet($conn, $newBalc, $varUserId);
 
@@ -163,6 +176,7 @@ if (strval($trans[0]['status'] !== 'Completed')) {
         exit();
       } else {
         $error[] = "Error processing your request";
+        $error[] = $msg;
         $resp['msg'] = $error;
         $resp['status'] = false;
         echo json_encode($resp);
@@ -173,6 +187,7 @@ if (strval($trans[0]['status'] !== 'Completed')) {
       UpdateFailedTransaction($conn, $stats, $reference, $channel, $userprice_fetch, $current_balance, $requestId, $failstats);
 
       $error[] = "Network Error: Please Try again shortly";
+      $error[] = $msg;
       $resp['msg'] = $error;
       $resp['status'] = false;
       echo json_encode($resp);
@@ -195,9 +210,9 @@ if (strval($trans[0]['status'] !== 'Completed')) {
   exit();
 }
 
-function fetchPackage($conn, $variation, $network)
+function fetchPackage($conn, $variation)
 {
-  $qryPlan = $conn->query("SELECT * FROM tv_package WHERE plancode='$variation' AND network='$network'");
+  $qryPlan = $conn->query("SELECT * FROM tv_packages WHERE plan_id='$variation'");
   while ($prow[] = $qryPlan->fetch_assoc()) {
   }
   return json_encode($prow);
@@ -267,7 +282,7 @@ function Paytev($smartNo, $decoder_userName, $customer_number, $code_fetch, $pho
   $API_TOKEN = $paytevkey->privatekey;
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://client.paytev.com/api/api/v1/cable?format=json&smart_no=$smartNo&service=$network&phone=$phoneNumber&customer_name=$decoder_userName&customer_number=$customer_number&invoice=$invoice&plan_code=$code_fetch",
+    CURLOPT_URL => "https://client.paytev.com/api/api/v1/cable?format=json&smart_no=$smartNo&service=$network&phone=$phone&customer_name=$decoder_userName&customer_number=$customer_number&invoice=$invoice&plan_code=$code_fetch",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
@@ -590,4 +605,55 @@ function MarkersApi($conn, $network, $phone, $code_fetch, $requestId, $userprice
   curl_close($ch);
   //file_put_contents('resp.txt',$veridata_maker);
   return $veridata_maker;
+}
+// to be editted for tv cable sub
+function n3t($conn, $cable, $iuc, $cable_plan, $requestId)
+{
+  function fetchn3t($conn)
+  {
+    $query_n3t = $conn->query("SELECT * FROM providers_api_key WHERE provider='n3tdata'");
+    $n3tkey = $query_n3t->fetch_assoc();
+    return json_encode($n3tkey);
+  }
+  $json_n3t = json_decode(fetchn3t($conn));
+  /////N3TDATA
+  $basic = base64_encode($json_n3t->username . ':' . $json_n3t->password);
+  $curl = curl_init();
+  curl_setopt($curl, CURLOPT_URL, "https://n3tdata.com/api/user");
+  curl_setopt($curl, CURLOPT_POST, 1);
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt(
+    $curl,
+    CURLOPT_HTTPHEADER,
+    [
+      "Authorization: Basic " . $basic,
+    ]
+  );
+  $N3Tresponse = curl_exec($curl);
+  $n3result = json_decode($N3Tresponse);
+  curl_close($curl);
+  $n3_accesscode = $n3result->AccessToken;
+
+
+  // cURL 2
+  $paypload = array(
+    'cable' => $cable, // 1,
+    'iuc' => $iuc, // 08141279191,
+    'cable_plan' => $cable_plan, // 1,
+    'bypass' => false,
+    'request-id' => $requestId
+  );
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, 'https://n3tdata.com/api/cable');
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($paypload));
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $headers = [
+    "Authorization: Token $n3_accesscode",
+    'Content-Type: application/json'
+  ];
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+  $response = curl_exec($ch);
+  curl_close($ch);
+  return  $response;
 }

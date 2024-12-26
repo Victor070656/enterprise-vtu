@@ -65,7 +65,7 @@ if (checkMerchantRecord($conn, $UserEmail) > 0) {
   $ftrow =  json_decode(fetchPackage($conn, $plan), true);
   $network_fetch = $ftrow[0]['network'];
   $plan_fetch = $ftrow[0]['plan'];
-  $code_fetch = $ftrow[0]['code'];
+  // $code_fetch = $ftrow[0]['code'];
   $userprice_fetch = floatval($ftrow[0]['price_user']);
   $apiprice_fetch = floatval($ftrow[0]['price_api']);
 
@@ -81,7 +81,7 @@ if (checkMerchantRecord($conn, $UserEmail) > 0) {
   $valu = strtoupper($provider) . ' ' . $plan_fetch . "($qty)";
 
   $stmtSmE = $conn->prepare("INSERT INTO transactions(network,serviceid,vcode,qty,ref,refer,amount,charge,email,status,token,customer,date,phone,channel)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
-  $stmtSmE->bind_Param("sssssssssssssss", $valu, $network, $code_fetch, $qty, $uid, $reference, $totalAmount, $totalAmount, $UserEmail, $stat, $reference, $customNam, $dat, $userPhone, $channel);
+  $stmtSmE->bind_Param("sssssssssssssss", $valu, $network, $plan, $qty, $uid, $reference, $totalAmount, $totalAmount, $UserEmail, $stat, $reference, $customNam, $dat, $userPhone, $channel);
 
   if ($stmtSmE->execute()) {
     session_start();
@@ -126,7 +126,7 @@ function checkMerchantRecord($conn, $UserEmail)
 
 function fetchPackage($conn, $plan)
 {
-  $qryPlan = $conn->query("SELECT * FROM pins_package WHERE serial='$plan'");
+  $qryPlan = $conn->query("SELECT * FROM pins_packages WHERE plan_id='$plan'");
   while ($prow[] = $qryPlan->fetch_assoc()) {
   }
   return json_encode($prow);

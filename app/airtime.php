@@ -77,9 +77,9 @@ include('inc/header.php');
                                     </label>
 
 
-                                    <label class="custom-control custom-radio custom-control-inline">
+                                    <!-- <label class="custom-control custom-radio custom-control-inline">
                                         <input type="radio" name="carier" id="ntel" class="custom-control-input" value="ntel" onclick="showntel()"><span class="custom-control-label"><img src="assets/images/ntel.jpg" class="rounded-corners"></span>
-                                    </label>
+                                    </label> -->
                                     <label id="resultcarier"></label>
 
                                     <p></p>

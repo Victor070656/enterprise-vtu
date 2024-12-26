@@ -69,10 +69,12 @@ $userPhone = $userDetails[0]['phone'];
 $UserIPAddress = $userDetails[0]['IPaddress'];
 $varUserId = $userDetails[0]['email'];
 
-$ftrow =  json_decode(fetchPackage($conn, $variation, $network), true);
+$ftrow =  json_decode(fetchPackage($conn, $variation), true);
 $network_fetch = $ftrow[0]['network'];
+$network_id = $ftrow[0]['network_id'];
 $plan_fetch = $ftrow[0]['plan'];
-$code_fetch = $ftrow[0]['code'];
+$plan_id = $ftrow[0]['plan_id'];
+// $code_fetch = $ftrow[0]['code'];
 $userprice_fetch = floatval($ftrow[0]['price_user']);
 $apiprice_fetch = floatval($ftrow[0]['price_api']);
 
@@ -104,14 +106,55 @@ if (strval($trans[0]['status']) !== 'Completed') {
 
       //try API
 
-      $rp_gen = json_decode(epinsGen($conn, $provider, $variation, $pinNo, $requestId));
+      // $rp_gen = json_decode(epinsGen($conn, $provider, $variation, $pinNo, $requestId));
+      // //$responsecode = $rp->code;
+      // //$transId = $result->id;
+
+      // if ($rp_gen->code == '101') {
+
+      //   $pins = $rp_gen->description->PIN;
+      //   $xtrato = explode("\n", $pins);
+      //   $counter = count($xtrato);
+
+      //   UserdebitWallet($conn, $newBalc, $varUserId);
+      //   StorePin($conn, $network, $variation, $pins, $UserEmail, $requestId, $cardname);
+      //   UpdateTransaction($conn, $stats, $reference, $channel, $totalDebit, $newBalc, $dat, $requestId, $cardname, $servicetype);
+      //   moveToPurchased($conn, $network, $variation, $pins, $UserEmail, $requestId);
+      //   $printcardId = base64_encode($requestId);
+
+      //   $_SESSION['net'] = $network;
+      //   $_SESSION['var'] = $variation;
+      //   $_SESSION['pin'] = $pins;
+      //   $_SESSION['xtraEmail'] = $UserEmail;
+      //   $_SESSION['cardname'] = $cardname;
+
+      //   $resp['msg'] = "Transaction Successful";
+      //   $resp['status'] = true;
+      //   $resp['redirect'] = "../../airtime-pins.php";
+      //   $resp['download'] = "p_xpo.php";
+      //   $resp['print'] = "../../print-rechargecard?id=$printcardId";
+      //   $resp['counter'] = $pinNo;
+      //   $resp['network'] = $network;
+      //   echo json_encode($resp);
+      //   exit();
+      // } else {
+
+
+      //   $error[] = strtoupper($provider) . ' ' . $plan_fetch . " currently unavailable";
+      //   $resp['msg'] = $error;
+      //   $resp['status'] = false;
+      //   echo json_encode($resp);
+      //   exit();
+      // }
+
+      $rp_gen = json_decode(n3tpin($conn, $network_id, $plan_id, $pinNo, $cardname));
       //$responsecode = $rp->code;
       //$transId = $result->id;
 
-      if ($rp_gen->code == '101') {
+      if ($rp_gen->status == 'success') {
 
-        $pins = $rp_gen->description->PIN;
-        $xtrato = explode("\n", $pins);
+        $pins = $rp_gen->pin;
+        $xtrato = explode(",", $pins);
         $counter = count($xtrato);
 
         UserdebitWallet($conn, $newBalc, $varUserId);
@@ -139,6 +182,7 @@ if (strval($trans[0]['status']) !== 'Completed') {
 
 
         $error[] = strtoupper($provider) . ' ' . $plan_fetch . " currently unavailable";
+        $error[] = $rp_gen->message;
         $resp['msg'] = $error;
         $resp['status'] = false;
         echo json_encode($resp);
@@ -184,6 +228,7 @@ if (strval($trans[0]['status']) !== 'Completed') {
       } else {
 
         $error[] = strtoupper($provider) . ' ' . $plan_fetch . " PIN generation failed";
+
         $resp['msg'] = $error;
         $resp['status'] = false;
         echo json_encode($resp);
@@ -194,14 +239,14 @@ if (strval($trans[0]['status']) !== 'Completed') {
 
       //try API    
 
-      $rp_gen = json_decode(epinsGen($conn, $provider, $variation, $pinNo, $requestId));
-      //$responsecode = $rp_gen->code;
+      $rp_gen = json_decode(n3tpin($conn, $network_id, $plan_id, $pinNo, $cardname));
+      //$responsecode = $rp->code;
       //$transId = $result->id;
 
-      if ($rp_gen->code == '101') {
+      if ($rp_gen->status == 'success') {
 
-        $pins = $rp_gen->description->PIN;
-        $xtrato = explode("\n", $pins);
+        $pins = $rp_gen->pin;
+        $xtrato = explode(",", $pins);
         $counter = count($xtrato);
 
         UserdebitWallet($conn, $newBalc, $varUserId);
@@ -222,15 +267,14 @@ if (strval($trans[0]['status']) !== 'Completed') {
         $resp['download'] = "p_xpo.php";
         $resp['print'] = "../../print-rechargecard?id=$printcardId";
         $resp['counter'] = $pinNo;
-        $resp['network'] = $provider;
+        $resp['network'] = $network;
         echo json_encode($resp);
         exit();
       } else {
 
 
-        UpdateFailedTransaction($conn, $reference, $channel, $userprice_fetch, $current_balance, $dat, $requestId, $failstats);
-
-        $error[] = "Insufficient quantity";
+        $error[] = strtoupper($provider) . ' ' . $plan_fetch . " currently unavailable";
+        $error[] = $rp_gen->message;
         $resp['msg'] = $error;
         $resp['status'] = false;
         echo json_encode($resp);
@@ -274,15 +318,15 @@ function fetchmerchant($conn, $UserEmail)
   }
   return json_encode($rowmach);
 }
-function moveToPurchased($conn, $variation, $pins, $UserEmail, $requestId)
+function moveToPurchased($conn, $network, $variation, $pins, $UserEmail, $requestId)
 {
   $storePurchased = $conn->query("INSERT INTO purchased_pin(network,category,pins,email,ref) VALUES('$network','$variation','$pins','$UserEmail','$requestId')");
   return $storePurchased;
 }
 
-function fetchPackage($conn, $variation, $network)
+function fetchPackage($conn, $variation)
 {
-  $qryPlan = $conn->query("SELECT * FROM pins_package WHERE code='$variation' AND network='$network'");
+  $qryPlan = $conn->query("SELECT * FROM pins_packages WHERE plan_id='$variation'");
   while ($prow[] = $qryPlan->fetch_assoc()) {
   }
   return json_encode($prow);
@@ -392,4 +436,53 @@ function epinsGen($conn, $provider, $variation, $pinNo, $requestId)
   curl_close($ch);
   file_put_contents('res.txt', $EPIN_response);
   return $EPIN_response;
+}
+
+function n3tpin($conn, $network, $plan, $qty, $card_name = "Ateeku")
+{
+
+  function fetchn3t($conn)
+  {
+    $query_n3t = $conn->query("SELECT * FROM providers_api_key WHERE provider='n3tdata'");
+    $n3tkey = $query_n3t->fetch_assoc();
+    return json_encode($n3tkey);
+  }
+  $json_n3t = json_decode(fetchn3t($conn));
+  /////N3TDATA
+  $basic = base64_encode($json_n3t->username . ':' . $json_n3t->password);
+  $curl = curl_init();
+  curl_setopt($curl, CURLOPT_URL, "https://n3tdata.com/api/user");
+  curl_setopt($curl, CURLOPT_POST, 1);
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt(
+    $curl,
+    CURLOPT_HTTPHEADER,
+    [
+      "Authorization: Basic " . $basic,
+    ]
+  );
+  $N3Tresponse = curl_exec($curl);
+  $n3result = json_decode($N3Tresponse);
+  curl_close($curl);
+  $n3_accesscode = $n3result->AccessToken;
+
+  $paypload = array(
+    'network' => $network,
+    'plan_type' => $plan,
+    'quantity' => $qty,
+    'card_name' => $card_name,
+  );
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, 'https://n3tdata.com/api/recharge_card');
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($paypload));
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $headers = [
+    "Authorization: Token $n3_accesscode",
+    'Content-Type: application/json'
+  ];
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+  $response = curl_exec($ch);
+  curl_close($ch);
+  return $response;
 }

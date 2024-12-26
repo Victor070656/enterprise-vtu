@@ -73,9 +73,9 @@ include('inc/header.php');
                   <input type="radio" name="carier" class="custom-control-input" value="glo" onclick="javascript:showTv();" id="glo"><span class="custom-control-label"><img src="assets/images/glo.jpg" width="35" height="30" class="rounded-corners"></span>
                 </label>
 
-                <label class="custom-control custom-radio custom-control-inline">
+                <!-- <label class="custom-control custom-radio custom-control-inline">
                   <input type="radio" name="carier" class="custom-control-input" value="etisalat" onclick="javascript:showTv();" id="etisalat"><span class="custom-control-label"><img src="assets/images/9mobile.jpg" width="35" height="30" class="rounded-corners"></span>
-                </label>
+                </label> -->
 
 
 
@@ -94,7 +94,7 @@ include('inc/header.php');
 
 
                     <form action="javascript:void(0)" id="mtnpin" method="post">
-                      <?php $mtncgl = $conn->query("SELECT * FROM pins_package WHERE network='mtn'  ORDER BY `price_user` ASC"); ?>
+                      <?php $mtncgl = $conn->query("SELECT * FROM pins_packages WHERE network='mtn'  ORDER BY `price_user` ASC"); ?>
                       <input type="hidden" id="unit">
                       <input type="hidden" name="network" id="network">
                       <input type="hidden" name="token" id="token" value="<?php echo base64_encode($email); ?>">
@@ -103,7 +103,7 @@ include('inc/header.php');
                         <option value="" disabled selected hidden>Select Denomination</option>
 
                         <?php while ($mcgl = $mtncgl->fetch_assoc()) { ?>
-                          <option value="<?php echo $mcgl['serial']; ?>"> <?php echo $mcgl['plan'] . ' - ' . '&#x20A6;' . $mcgl['price_user']; ?> </option>
+                          <option value="<?php echo $mcgl['plan_id']; ?>"> <?php echo $mcgl['plan'] . ' - ' . '&#x20A6;' . $mcgl['price_user']; ?> </option>
                         <?php } ?>
 
                       </select>
@@ -113,7 +113,7 @@ include('inc/header.php');
 
                   <div class="form-group">
                     <label for="inputText3" class="col-form-label">Quantity</label>
-                    <input id="pino" type="number" class="form-control" name="qty" min="0" oninput="this.value = Math.abs(this.value)" style="border-radius: 0px; height: 50px;">
+                    <input id="pino" type="number" class="form-control" name="qty" min="0" style="border-radius: 0px; height: 50px;">
                   </div>
 
                   <span id="amountpay"></span>
@@ -137,6 +137,7 @@ include('inc/header.php');
                             token: tok
                           })
                           .done(function(resp) {
+                            console.log(resp);
                             res = JSON.parse(resp);
                             var rate = res['msg'];
                             $('#unit').val(rate);
@@ -191,7 +192,7 @@ include('inc/header.php');
                         },
                         success: function(data) {
                           // Process with the response data
-                          // alert(data);
+                          console.log(data);
                           if (data.status === true) {
                             var dirUrl = data.redirect;
                             const Toast = Swal.mixin({
@@ -269,6 +270,11 @@ include('inc/header.php');
                             }
                           }
 
+                        },
+                        error: function(xhr, status, error) {
+                          console.error("Ajax error: ", error);
+                          console.error("Ajax status: ", status);
+                          console.log("Response text: ", xhr.responseText);
                         }
                       });
                     });
@@ -285,7 +291,7 @@ include('inc/header.php');
                   <div class="form-group">
 
                     <form action="javascript:void(0)" id="airtelpin" method="post">
-                      <?php $airtel = $conn->query("SELECT * FROM pins_package WHERE network='airtel'  ORDER BY `price_user` ASC"); ?>
+                      <?php $airtel = $conn->query("SELECT * FROM pins_packages WHERE network='airtel'  ORDER BY `price_user` ASC"); ?>
 
                       <input type="hidden" name="network" id="networkairtel">
                       <input type="hidden" name="token" value="<?php echo base64_encode($email); ?>">
@@ -294,7 +300,7 @@ include('inc/header.php');
                         <option value="" disabled selected hidden>Select Denomination</option>
 
                         <?php while ($a = $airtel->fetch_assoc()) { ?>
-                          <option value="<?php echo $a['serial']; ?>"> <?php echo $a['plan'] . ' - ' . '&#x20A6;' . $a['price_user']; ?> </option>
+                          <option value="<?php echo $a['plan_id']; ?>"> <?php echo $a['plan'] . ' - ' . '&#x20A6;' . $a['price_user']; ?> </option>
                         <?php } ?>
 
                       </select>
@@ -467,7 +473,7 @@ include('inc/header.php');
                   <div class="form-group">
 
                     <form action="javascript:void(0)" id="glopin" method="post">
-                      <?php $glo = $conn->query("SELECT * FROM pins_package WHERE network='glo'  ORDER BY `price_user` ASC"); ?>
+                      <?php $glo = $conn->query("SELECT * FROM pins_packages WHERE network='glo'  ORDER BY `price_user` ASC"); ?>
 
                       <input type="hidden" name="network" id="networkglo">
                       <input type="hidden" name="token" value="<?php echo base64_encode($email); ?>">
@@ -476,7 +482,7 @@ include('inc/header.php');
                         <option value="" disabled selected hidden>Select Denomination</option>
 
                         <?php while ($g = $glo->fetch_assoc()) { ?>
-                          <option value="<?php echo $g['serial']; ?>"> <?php echo $g['plan'] . ' - ' . '&#x20A6;' . $g['price_user']; ?> </option>
+                          <option value="<?php echo $g['plan_id']; ?>"> <?php echo $g['plan'] . ' - ' . '&#x20A6;' . $g['price_user']; ?> </option>
                         <?php } ?>
 
 
@@ -644,13 +650,13 @@ include('inc/header.php');
 
 
                 <!-- Start Etisalat PIN hidden -->
-                <div class="float-center" id="ifEtisalat" style="display:none;">
+                <!-- <div class="float-center" id="ifEtisalat" style="display:none;">
 
                   <p></p>
                   <div class="form-group">
 
                     <form action="javascript:void(0)" id="etisalatpin" method="post">
-                      <?php $eti = $conn->query("SELECT * FROM pins_package WHERE network='etisalat'  ORDER BY `price_user` ASC"); ?>
+                      <?php $eti = $conn->query("SELECT * FROM pins_packages WHERE network='etisalat'  ORDER BY `price_user` ASC"); ?>
 
                       <input type="hidden" name="network" id="networketisalat">
                       <input type="hidden" name="token" value="<?php echo base64_encode($email); ?>">
@@ -821,7 +827,7 @@ include('inc/header.php');
                     });
                   </script>
 
-                </div>
+                </div> -->
 
                 <!-- End Etisalat PIN hidden -->
 

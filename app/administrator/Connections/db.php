@@ -3,11 +3,11 @@
 
 $DbHost = "localhost";
 
-$Dbname = "clickadc_vtuPo45";
+$Dbname = "vtu_app";
 
-$Dbuser = "clickadc_vtuPo45";
+$Dbuser = "root";
 
-$Dbpass = "?R(]b{NYyZ6T";
+$Dbpass = "";
 
 $conn = mysqli_connect("$DbHost","$Dbuser","$Dbpass","$Dbname");
 

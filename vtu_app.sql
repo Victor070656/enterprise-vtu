@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 25, 2024 at 09:26 AM
+-- Generation Time: Dec 26, 2024 at 10:49 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -59,7 +59,7 @@ CREATE TABLE `administrator` (
 --
 
 INSERT INTO `administrator` (`serial`, `user_id`, `pass`, `date`) VALUES
-(1, 'admin', '$2y$10$fwqXP3v6LPp4D3iDRgCxzeLFD.zmf1S9YdBSbx88K2iynMvTW6ICW', '2017-11-22 21:49:46');
+(1, 'admin', 'admin', '2017-11-22 21:49:46');
 
 -- --------------------------------------------------------
 
@@ -1190,6 +1190,37 @@ INSERT INTO `pins_package` (`serial`, `network`, `plan`, `code`, `price_user`, `
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `pins_packages`
+--
+
+CREATE TABLE `pins_packages` (
+  `id` int(11) NOT NULL,
+  `network_id` int(11) NOT NULL,
+  `network` varchar(20) NOT NULL,
+  `plan_id` int(11) NOT NULL,
+  `plan` varchar(20) NOT NULL,
+  `price_user` decimal(10,2) NOT NULL,
+  `price_api` decimal(10,2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `pins_packages`
+--
+
+INSERT INTO `pins_packages` (`id`, `network_id`, `network`, `plan_id`, `plan`, `price_user`, `price_api`) VALUES
+(1, 1, 'MTN', 1, 'N100', 98.00, 98.00),
+(2, 1, 'MTN', 2, 'N200', 196.00, 196.00),
+(3, 1, 'MTN', 3, 'N500', 490.00, 490.00),
+(4, 3, 'GLO', 4, 'N100', 97.00, 97.00),
+(5, 3, 'GLO', 5, 'N200', 194.00, 194.00),
+(6, 3, 'GLO', 6, 'N500', 485.00, 485.00),
+(7, 2, 'AIRTEL', 7, 'N100', 97.00, 97.00),
+(8, 2, 'AIRTEL', 8, 'N200', 194.00, 194.00),
+(9, 2, 'AIRTEL', 9, 'N500', 485.00, 485.00);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `pin_billing`
 --
 
@@ -1246,6 +1277,13 @@ CREATE TABLE `pin_merchants` (
   `plan` varchar(100) DEFAULT NULL,
   `created_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `pin_merchants`
+--
+
+INSERT INTO `pin_merchants` (`serial`, `merchantid`, `package`, `amountpaid`, `duration`, `status`, `plan`, `created_date`) VALUES
+(33, 'ike@gmail.com', 'Premium', '3500', 12, 'ACTIVE', 'Premium', '2024-12-15 06:00:45');
 
 -- --------------------------------------------------------
 
@@ -1609,7 +1647,23 @@ INSERT INTO `transactions` (`serial`, `network`, `serviceid`, `vcode`, `meterno`
 (7, 'AIRTEL 500MB (CG) - 30days', '04', '12', NULL, NULL, '07065606123', 200, NULL, '9407883196105627', 'pending', '2024-11-22 05:12:32', 'ike@gmail.com', '6740bb806e0a5', '6740bb806e0a5', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (8, 'GLO 1GB (CG) -  30days', '02', '1000', NULL, NULL, '07065606123', 275, NULL, '9204181773805696', 'pending', '2024-11-22 05:13:34', 'ike@gmail.com', '6740bbbe081f7', '6740bbbe081f7', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (9, '9MOBILE 1.5GB (CG) - 30days', '03', '', NULL, NULL, '07065606123', 300, NULL, '7028469195803176', 'pending', '2024-11-22 05:13:47', 'ike@gmail.com', '6740bbcb742cd', '6740bbcb742cd', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(10, '9MOBILE 1.5GB (CG) - 30days', '03', '', NULL, 'Wallet', '07065606123', 300, 200, '9677906381508412', 'Failed', '2024-11-22 05:17:42', 'ike@gmail.com', '6740bcb69aec2', '674180ee8993a', 'vic Ike', NULL, NULL, NULL, NULL, NULL, 10000, NULL, NULL, NULL);
+(10, '9MOBILE 1.5GB (CG) - 30days', '03', '', NULL, 'Wallet', '07065606123', 300, 200, '9677906381508412', 'Failed', '2024-11-22 05:17:42', 'ike@gmail.com', '6740bcb69aec2', '674180ee8993a', 'vic Ike', NULL, NULL, NULL, NULL, NULL, 10000, NULL, NULL, NULL),
+(11, 'AIRTEL ', '2', NULL, NULL, NULL, '07065606123', 0, NULL, '0801265917689374', 'pending', '2024-11-26 01:02:55', 'ike@gmail.com', '6745c6ff8f480', '6745c6ff8f480', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(12, 'MTN 1GB', '1', '1GB', NULL, 'Wallet', '07065606123', 260, 260, '5260486977381190', 'Failed', '2024-11-26 09:52:07', 'ike@gmail.com', '6746430779bdc', '6746d30f49542', 'vic Ike', NULL, NULL, NULL, NULL, NULL, 10000, NULL, NULL, NULL),
+(13, 'Upgrade with Portal Setup', NULL, NULL, NULL, NULL, '07065606123', 60000, NULL, '7782061359806419', 'pending', '2024-12-03 13:58:27', 'ike@gmail.com', '674f0e830d8c8', '674f0e830d8c8', 'vic Ike', NULL, 'Delete', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(14, 'GOtv Jinja', 'gotv', 'GOtv_Jinja', NULL, 'Wallet', '2009387707', 3284, 3300, '1604152783680997', 'Failed', '2024-12-04 04:39:50', 'ike@gmail.com', '675085d6ac96e', '67508ef45ae71', 'vic Ike', NULL, NULL, NULL, NULL, NULL, 10000, NULL, NULL, NULL),
+(15, 'MTN N100(5)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 490, 490, '4721606980751893', 'pending', '2024-12-15 06:14:36', 'ike@gmail.com', '675e73ccaad0c', '675e73ccaad0c', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(16, 'AIRTEL N200(5)', 'airtel', NULL, NULL, 'Wallet', '07065606123', 970, 970, '6927450613189078', 'pending', '2024-12-23 00:21:22', 'ike@gmail.com', '676955c27c421', '676955c27c421', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(17, 'AIRTEL N200(5)', 'airtel', NULL, NULL, 'Wallet', '07065606123', 970, 970, '7185102367468099', 'pending', '2024-12-23 00:23:43', 'ike@gmail.com', '6769564f6153a', '6769564f6153a', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(18, 'MTN N100(9)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 882, 882, '4112680036977958', 'pending', '2024-12-23 00:24:20', 'ike@gmail.com', '676956742fbfb', '676956742fbfb', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL),
+(19, 'MTN N100(9)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 882, 882, '6905430188721796', 'pending', '2024-12-23 00:24:30', 'ike@gmail.com', '6769567ed113c', '6769567ed113c', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL),
+(20, 'MTN N100(9)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 882, 882, '5201877640919638', 'pending', '2024-12-23 00:41:43', 'ike@gmail.com', '67695a879524b', '67695a879524b', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL),
+(21, 'MTN N200(5)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 980, 980, '1613287907856094', 'pending', '2024-12-23 00:42:12', 'ike@gmail.com', '67695aa42043a', '67695aa42043a', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(22, 'MTN N200(5)', 'mtn', NULL, NULL, 'Wallet', '07065606123', 980, 980, '5889964260711073', 'pending', '2024-12-23 00:48:48', 'ike@gmail.com', '67695c30569f7', '67695c30569f7', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(23, 'AIRTEL N100(5)', 'airtel', '7', NULL, 'Wallet', '07065606123', 485, 485, '9475362781081096', 'pending', '2024-12-23 01:01:00', 'ike@gmail.com', '67695f0c1bb2c', '67695f0c1bb2c', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(24, 'MTN N100(5)', 'mtn', '1', NULL, 'Wallet', '07065606123', 490, 490, '3078691274560819', 'pending', '2024-12-23 02:16:15', 'ike@gmail.com', '676970af19053', '676970af19053', 'vic Ike', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL),
+(25, 'MTN Airtime', 'mtn', NULL, NULL, 'Wallet', '07065606123', 300, 300, '1160797089863254', 'Failed', '2024-12-23 02:17:43', 'ike@gmail.com', '676970f208c7a', '6769710763a8f', 'vic Ike', NULL, NULL, NULL, NULL, 'mtn', 6500, NULL, NULL, NULL),
+(26, '9MOBILE Airtime', 'etisalat', NULL, NULL, 'Wallet', '07065606123', 100, NULL, '0382159678019647', 'pending', '2024-12-23 02:18:46', 'ike@gmail.com', '67697146c9f12', '67697146c9f12', 'vic Ike', NULL, NULL, NULL, NULL, 'etisalat', 6400, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1688,6 +1742,55 @@ INSERT INTO `tv_package` (`serial`, `network`, `plan`, `plancode`, `clientcode`,
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tv_packages`
+--
+
+CREATE TABLE `tv_packages` (
+  `id` int(11) NOT NULL,
+  `plan_id` int(11) NOT NULL,
+  `cable_id` int(11) NOT NULL,
+  `cable` varchar(30) NOT NULL,
+  `plan_name` varchar(30) NOT NULL,
+  `plan_code` varchar(30) NOT NULL,
+  `amount` float NOT NULL,
+  `gateway` varchar(20) NOT NULL DEFAULT 'n3t',
+  `status` varchar(20) NOT NULL DEFAULT 'enabled'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tv_packages`
+--
+
+INSERT INTO `tv_packages` (`id`, `plan_id`, `cable_id`, `cable`, `plan_name`, `plan_code`, `amount`, `gateway`, `status`) VALUES
+(1, 1, 2, 'DSTV', 'DStv Padi', 'DStv_Padi', 3600, 'n3t', 'enabled'),
+(2, 2, 2, 'DSTV', 'DSTV -YANGA', 'DSTV_YANGA', 5100, 'n3t', 'enabled'),
+(3, 9, 2, 'DSTV', 'DStv Premium-Asia', 'DStv_Premium_Asia', 33000, 'n3t', 'enabled'),
+(4, 10, 2, 'DSTV', 'DStv Confam + ExtraView', 'DStv_Confam_ExtraView', 11500, 'n3t', 'enabled'),
+(5, 34, 2, 'DSTV', 'Dstv Confam', 'Dstv_Confam', 9300, 'n3t', 'enabled'),
+(6, 35, 2, 'DSTV', 'DStv Compact', 'DStv_Compact', 15700, 'n3t', 'enabled'),
+(7, 36, 2, 'DSTV', 'DStv Premium', 'DStv_Premium', 37000, 'n3t', 'enabled'),
+(8, 37, 2, 'DSTV', 'DStv Asia', 'DStv_Asia', 10000, 'n3t', 'enabled'),
+(9, 38, 2, 'DSTV', 'DStv Compact Plus', 'DStv_Compact_Plus', 25000, 'n3t', 'enabled'),
+(10, 43, 2, 'DSTV', 'DStv Padi + ExtraView', 'DStv_Padi_ExtraView', 5400, 'n3t', 'enabled'),
+(11, 59, 1, 'GOTV', 'GOtv Max', 'GOtv_Max', 7200, 'n3t', 'enabled'),
+(12, 60, 1, 'GOTV', 'GOtv Jolli', 'GOtv_Jolli', 4850, 'n3t', 'enabled'),
+(13, 61, 1, 'GOTV', 'GOtv Jinja', 'GOtv_Jinja', 3300, 'n3t', 'enabled'),
+(14, 62, 1, 'GOTV', 'GOtv Smallie - monthly', 'GOtv_Smallie_monthly', 1575, 'n3t', 'enabled'),
+(15, 65, 1, 'GOTV', 'GOtv Supa - monthly', 'GOtv_Supa_monthly', 9600, 'n3t', 'enabled'),
+(16, 66, 3, 'STARTIMES', 'Nova - 1 Month', 'Nova_1Month', 1700, 'n3t', 'enabled'),
+(17, 67, 3, 'STARTIMES', 'Basic (Antenna) - 1 Month', 'Basic_Antenna_1Month', 3000, 'n3t', 'enabled'),
+(18, 68, 3, 'STARTIMES', 'Smart (Dish) -1 Month', 'Smart_Dish_1Month', 3500, 'n3t', 'enabled'),
+(19, 69, 3, 'STARTIMES', 'Classic (Antenna) - 1 Month', 'Classic_Antenna_1Month', 4500, 'n3t', 'enabled'),
+(20, 70, 3, 'STARTIMES', 'Super (Dish) - 1 Month', 'Super_Dish_1Month', 7500, 'n3t', 'enabled'),
+(21, 71, 3, 'STARTIMES', 'Nova - 1 Week', 'Nova_1Week', 500, 'n3t', 'enabled'),
+(22, 72, 3, 'STARTIMES', 'Basic (Antenna) - 1 Week', 'Basic_Antenna_1Week', 900, 'n3t', 'enabled'),
+(23, 73, 3, 'STARTIMES', 'Smart (Dish) - 1 Week', 'Smart_Dish_1Week', 1100, 'n3t', 'enabled'),
+(24, 74, 3, 'STARTIMES', 'Classic (Antenna) - 1 Week', 'Classic_Antenna_1Week', 1500, 'n3t', 'enabled'),
+(25, 75, 3, 'STARTIMES', 'Super (Dish) - 1 Week', 'Super_Dish_1Week', 2200, 'n3t', 'enabled');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -1743,7 +1846,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `acc`, `firstname`, `lastname`, `email`, `pass`, `phone`, `joining_date`, `level`, `IPaddress`, `block`, `blockpro`, `unblock`, `activate`, `blockinfo`, `blockstat`, `del`, `bal`, `pincredit`, `currency`, `acctype`, `country`, `accno`, `refid`, `refcount`, `refby`, `refbyid`, `refwallet`, `reflink`, `refunverified`, `refverified`, `apikey`, `credit`, `accountName`, `accountNumber`, `bankName`, `pins`, `xct`, `cwallet`, `wema`, `moniepoint`, `sterling`, `reserve`, `tcode`) VALUES
-(61, NULL, 'vic', 'Ike', 'ike@gmail.com', '$2y$10$tJj6jINPqFGJOJ41xpj0heVBiS2pAczIBM.d4v.Iz/k23SfqTNEfm', '07065606123', '2024-11-18 20:40:25', 'free', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 10000.00, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.00, NULL, NULL, NULL, NULL, NULL);
+(61, NULL, 'vic', 'Ike', 'ike@gmail.com', '$2y$10$tJj6jINPqFGJOJ41xpj0heVBiS2pAczIBM.d4v.Iz/k23SfqTNEfm', '07065606123', '2024-11-18 20:40:25', 'free', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6500.00, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.00, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1992,6 +2095,12 @@ ALTER TABLE `pins_package`
   ADD PRIMARY KEY (`serial`);
 
 --
+-- Indexes for table `pins_packages`
+--
+ALTER TABLE `pins_packages`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `pin_billing`
 --
 ALTER TABLE `pin_billing`
@@ -2086,6 +2195,12 @@ ALTER TABLE `transfer_response`
 --
 ALTER TABLE `tv_package`
   ADD PRIMARY KEY (`serial`);
+
+--
+-- Indexes for table `tv_packages`
+--
+ALTER TABLE `tv_packages`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `users`
@@ -2314,6 +2429,12 @@ ALTER TABLE `pins_package`
   MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
+-- AUTO_INCREMENT for table `pins_packages`
+--
+ALTER TABLE `pins_packages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
 -- AUTO_INCREMENT for table `pin_billing`
 --
 ALTER TABLE `pin_billing`
@@ -2329,7 +2450,7 @@ ALTER TABLE `pin_dealers`
 -- AUTO_INCREMENT for table `pin_merchants`
 --
 ALTER TABLE `pin_merchants`
-  MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -2395,7 +2516,7 @@ ALTER TABLE `smtp_settings`
 -- AUTO_INCREMENT for table `transactions`
 --
 ALTER TABLE `transactions`
-  MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `transfer_response`
@@ -2408,6 +2529,12 @@ ALTER TABLE `transfer_response`
 --
 ALTER TABLE `tv_package`
   MODIFY `serial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+
+--
+-- AUTO_INCREMENT for table `tv_packages`
+--
+ALTER TABLE `tv_packages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `users`
